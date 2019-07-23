@@ -1,0 +1,1456 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0020)http://www.xtep.com/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="wap-font-scale" content="no">
+    
+<title>特步-非一般的感觉</title>
+<meta name="keywords" content="特步运动鞋,特步跑步鞋,特步休闲鞋,特步板鞋,儿童跑鞋,特步童装,特步运动服,运动套装,运动外套,特步运动裤,特步专卖店,特步官方网站,特步品牌站,特步官网,特步批发">
+<meta name="description" content="www.xtep.com是特步官方网站，由特步直接管理的特步官网、特步专卖店、特步官方旗舰店。主营特步运动鞋、特步跑步鞋、特步休闲鞋、特步板鞋、儿童跑鞋、特步童装、特步运动服、特步运动裤、运动套装、运动外套、特步电商批发等产品和业务。">
+
+    <link href="./特步-非一般的感觉_files/css.css" type="text/css" rel="stylesheet">
+    <link href="./特步-非一般的感觉_files/main.css" type="text/css" rel="stylesheet">
+
+    <script src="./特步-非一般的感觉_files/hm.js"></script><script type="text/javascript" src="./特步-非一般的感觉_files/jquery.min.js"></script>
+
+    <script type="text/javascript" src="./特步-非一般的感觉_files/henfon.js"></script>
+
+    <!--all-->
+    <!--[if IE]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.js"></script>
+  <![endif]-->
+
+    <script type="text/javascript" src="./特步-非一般的感觉_files/jquery.flexslider-min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./特步-非一般的感觉_files/flexslider.css">
+
+    <script type="text/javascript">
+
+        //添加英文站跳转
+        var type = navigator.appName
+        if (type == "Netscape") {
+            var lang = navigator.language
+        }
+        else {
+            var lang = navigator.userLanguage
+        }
+        //取得浏览器语言的前两个字母
+        var lang = lang.substr(0, 2)
+        // 不是中文 
+        if (lang != "zh") {
+            //   window.location.href = "http://en.xtep.com/"
+        }
+        // 中文 - 不分繁体和简体
+
+
+
+        $(function() {
+            $(".flexslider").flexslider({
+                slideshow: true,
+                slideshowSpeed: 4000, //展示时间间隔ms
+                animationSpeed: 1000, //滚动时间ms
+                animation: "fade",
+                directionNav: true,
+                touch: true //是否支持触屏滑动
+            });
+
+            if ($(window).width() < 641) {
+                $(".slilt dd a").each(function(index, element) {
+                    var self = $(this);
+                    self.attr("href", self.attr("moburl"));
+                });
+                $(".slides li > img,.slides li > a > img").each(function(index, element) {
+                    var self = $(this);
+                    self.attr("src", self.attr("mobimg"));
+                });
+            } else {
+                $(".slilt dd a").each(function(index, element) {
+                    var self = $(this);
+                    self.attr("href", self.attr("pcurl"));
+                });
+                $(".slides li > img,.slides li > a > img").each(function(index, element) {
+                    var self = $(this);
+                    self.attr("src", self.attr("pcimg"));
+                });
+            };
+            $(window).resize(function() {
+                if ($(window).width() < 641) {
+                    $(".slilt dd a").each(function(index, element) {
+                        var self = $(this);
+                        self.attr("href", self.attr("moburl"));
+                    });
+                    $(".slides li > img,.slides li > a > img").each(function(index, element) {
+                        var self = $(this);
+                        self.attr("src", self.attr("mobimg"));
+                    });
+                } else {
+                    $(".slilt dd a").each(function(index, element) {
+                        var self = $(this);
+                        self.attr("href", self.attr("pcurl"));
+                    });
+                    $(".slides li > img,.slides li > a > img").each(function(index, element) {
+                        var self = $(this);
+                        self.attr("src", self.attr("pcimg"));
+                    });
+                }
+            });
+
+
+        });	
+    </script>
+
+    <style>
+        @media screen and (max-width: 640px)
+        {
+            .textimg
+            {
+                width: 100%;
+                left: 0;
+                top: auto;
+                padding: 0 5%;
+                bottom: 20px;
+            }
+            .textimg > img
+            {
+                display: none;
+            }
+            .textimg p
+            {
+                margin: 0;
+                text-align: center;
+            }
+            .textimg p a
+            {
+                display: block;
+                width: 100%;
+                position: relative;
+                margin: 10px 0 0;
+                height: 35px;
+                line-height: 35px;
+            }
+            .textimg p a.mel01
+            {
+                left: -100px;
+                right: auto;
+                transition: all 0.8s ease;
+            }
+            .textimg p a.mel02
+            {
+                background: #fff;
+                color: #333;
+                right: -100px;
+                transition: all 0.8s ease;
+            }
+            .flex-active-slide .textimg p a.mel01
+            {
+                left: 0;
+                transition: all 0.8s ease;
+            }
+            .flex-active-slide .textimg p a.mel02
+            {
+                right: 0;
+                transition: all 0.8s ease;
+            }
+            .clait
+            {
+                background: url(testimg/xz05.png);
+            }
+            .ablct, .clait
+            {
+                background: none;
+                width: 100%;
+                height: auto;
+                bottom: 20px;
+                left: 0;
+                top: auto;
+                padding: 0 5%;
+            }
+            .ablct .setimg > img
+            {
+                display: none;
+            }
+            .flex-active-slide .ablct
+            {
+                width: 100%;
+                left: 0;
+            }
+            .linlt
+            {
+                margin: 0;
+                top: auto;
+                filter: alpha(opacity=100);
+                -moz-opacity: 1;
+                opacity: 1;
+            }
+            .ablct .linlt a
+            {
+                display: block;
+                width: 100%;
+                position: relative;
+                margin: 10px 0 0;
+                height: 35px;
+                line-height: 35px;
+                filter: alpha(opacity=0);
+                -moz-opacity: 0;
+                opacity: 0;
+            }
+            .ablct .linlt a.mel01
+            {
+                left: -100px;
+                right: auto;
+                transition: all 0.8s ease;
+            }
+            .ablct .linlt a.mel02
+            {
+                background: #fff;
+                color: #333;
+                right: -100px;
+                transition: all 0.8s ease;
+            }
+            .flex-active-slide .ablct .linlt a.mel01
+            {
+                filter: alpha(opacity=100);
+                -moz-opacity: 1;
+                opacity: 1;
+                left: 0;
+                transition: all 0.8s ease;
+            }
+            .flex-active-slide .ablct .linlt a.mel02
+            {
+                filter: alpha(opacity=100);
+                -moz-opacity: 1;
+                opacity: 1;
+                right: 0;
+                transition: all 0.8s ease;
+            }
+            .flex-active-slide .setimg
+            {
+                transition: all 1.2s ease 0s;
+            }
+            .flex-active-slide .linlt
+            {
+                transition: all 1.2s ease 0s;
+            }
+        }
+    </style>
+   
+<script src="./特步-非一般的感觉_files/common.js" type="text/javascript"></script>
+</head>
+<body style="padding-top: 654px; padding-bottom: 376px;">
+
+    <div class="top">
+        <div class="logo fl">
+            <a href="http://www.xtep.com/index.aspx">
+                <img src="./特步-非一般的感觉_files/logo.png"></a></div>
+        <div class="mob-nav fr">
+        </div>
+        <div class="moclt" style="height: 60px;">
+            <div class="selt-bg" style="display: none;">
+            </div>
+            <ul class="nav slatkx fl">
+                <li><a href="http://www.xtep.com/run.aspx" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;导航&#39;, &#39;点击&#39;, &#39;跑步&#39;])">跑步<i><img src="./特步-非一般的感觉_files/cs01.png"></i><span></span></a>
+                    <div class="slilt" style="display: none;">
+                        <a href="http://www.xtep.com/run.aspx" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;导航&#39;, &#39;点击&#39;, &#39;跑步&#39;])">跑步主页</a>
+                        <dl style="left: 100px; opacity: 0;">
+                            <dt><a>主推系列<i><img src="./特步-非一般的感觉_files/cs03.png"></i></a></dt>
+                                                        <dd>
+                                <a href="http://www.xtep.com/jzx/" pcurl="/jzx/" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;跑步&#39;, &#39;点击&#39;, &#39;主推系列-减震旋6.0&#39;])">
+                                    减震旋6.0</a></dd>
+
+                            <script> 
+                    var index=1
+                    if(index==1){
+                        document.write("<dd><a href=\"/jzx/\" pcurl=\"/jzx/\" moburl=\"https://s.click.taobao.com/Zl6brLw\"  target='_blank'  onclick=\"_hmt.push(['_trackEvent', '跑步', '点击', '主推系列-减震旋6.0'])\"><img src=\"/Upload/5014244620119-11351388112.jpg\"></a></dd>")
+                    }
+                            </script><dd><a href="http://www.xtep.com/jzx/" pcurl="/jzx/" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;跑步&#39;, &#39;点击&#39;, &#39;主推系列-减震旋6.0&#39;])"><img src="./特步-非一般的感觉_files/5014244620119-11351388112.jpg"></a></dd>
+                            <dd>
+                                <a href="http://www.xtep.com/dlc/" pcurl="/dlc/" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;跑步&#39;, &#39;点击&#39;, &#39;主推系列-动力巢5.0 &#39;])">
+                                    动力巢5.0 </a></dd>
+
+                            <script> 
+                    var index=2
+                    if(index==1){
+                        document.write("<dd><a href=\"/dlc/\" pcurl=\"/dlc/\" moburl=\"https://s.click.taobao.com/Zl6brLw\"  target='_blank'  onclick=\"_hmt.push(['_trackEvent', '跑步', '点击', '主推系列-动力巢5.0 '])\"><img src=\"/Upload/50-14244620119.jpg\"></a></dd>")
+                    }
+                            </script>
+
+
+                        </dl>
+                                                <dl style="left: 100px; opacity: 0;">
+                            <dt><a>男子<i><img src="./特步-非一般的感觉_files/cs03.png"></i></a></dt>
+                                                        <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/95" pcurl="http://shop.xtep.com.cn/goodstype/95" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;跑步&#39;, &#39;点击&#39;, &#39;男子-跑步鞋&#39;])">
+                                    跑步鞋</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/158" pcurl="http://shop.xtep.com.cn/goodstype/158" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;跑步&#39;, &#39;点击&#39;, &#39;男子-越野跑鞋&#39;])">
+                                    越野跑鞋</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/110" pcurl="http://shop.xtep.com.cn/goodstype/110" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;跑步&#39;, &#39;点击&#39;, &#39;男子-羽绒服/棉服&#39;])">
+                                    羽绒服/棉服</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/160" pcurl="http://shop.xtep.com.cn/goodstype/160" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;跑步&#39;, &#39;点击&#39;, &#39;男子-运动T恤&#39;])">
+                                    运动T恤</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/165" pcurl="http://shop.xtep.com.cn/goodstype/165" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;跑步&#39;, &#39;点击&#39;, &#39;男子-运动裤装&#39;])">
+                                    运动裤装</a></dd>
+
+                        </dl>
+                        <dl style="left: 100px; opacity: 0;">
+                            <dt><a>女子<i><img src="./特步-非一般的感觉_files/cs03.png"></i></a></dt>
+                                                        <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/103" pcurl="http://shop.xtep.com.cn/goodstype/103" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;跑步&#39;, &#39;点击&#39;, &#39;女子-女跑鞋&#39;])">
+                                    女跑鞋</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/115" pcurl="http://shop.xtep.com.cn/goodstype/115" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;跑步&#39;, &#39;点击&#39;, &#39;女子-羽绒服/棉服&#39;])">
+                                    羽绒服/棉服</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/162" pcurl="http://shop.xtep.com.cn/goodstype/162" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;跑步&#39;, &#39;点击&#39;, &#39;女子-运动T恤&#39;])">
+                                    运动T恤</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/167" pcurl="http://shop.xtep.com.cn/goodstype/167" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;跑步&#39;, &#39;点击&#39;, &#39;女子-运动短裤&#39;])">
+                                    运动短裤</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/166" pcurl="http://shop.xtep.com.cn/goodstype/166" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;跑步&#39;, &#39;点击&#39;, &#39;女子-运动长裤&#39;])">
+                                    运动长裤</a></dd>
+
+                        </dl>
+                        <dl style="left: 100px; opacity: 0;">
+                            <dt><a>科技<i><img src="./特步-非一般的感觉_files/cs03.png"></i></a></dt>
+                                                        <dd>
+                                <a href="http://shop.xtep.com.cn/Product/ProductList.aspx?key=%E5%87%8F%E9%9C%87%E6%97%8B" pcurl="http://shop.xtep.com.cn/Product/ProductList.aspx?key=%E5%87%8F%E9%9C%87%E6%97%8B" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;跑步&#39;, &#39;点击&#39;, &#39;科技-减震旋科技&#39;])">
+                                    减震旋科技</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/Product/ProductList.aspx?key=%E6%9F%94%E7%AB%8B%E6%96%B9" pcurl="http://shop.xtep.com.cn/Product/ProductList.aspx?key=%E6%9F%94%E7%AB%8B%E6%96%B9" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;跑步&#39;, &#39;点击&#39;, &#39;科技-柔立方科技&#39;])">
+                                    柔立方科技</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/Product/ProductList.aspx?key=%E9%A9%AD%E5%85%89" pcurl="http://shop.xtep.com.cn/Product/ProductList.aspx?key=%E9%A9%AD%E5%85%89" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;跑步&#39;, &#39;点击&#39;, &#39;科技-驭光科技&#39;])">
+                                    驭光科技</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/Product/ProductList.aspx?key=%E5%8A%A8%E5%8A%9B%E5%B7%A2" pcurl="http://shop.xtep.com.cn/Product/ProductList.aspx?key=%E5%8A%A8%E5%8A%9B%E5%B7%A2" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;跑步&#39;, &#39;点击&#39;, &#39;科技-动力巢科技&#39;])">
+                                    动力巢科技</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/Product/ProductList.aspx?key=%E6%B0%94%E8%83%BD%E7%8E%AF" pcurl="http://shop.xtep.com.cn/Product/ProductList.aspx?key=%E6%B0%94%E8%83%BD%E7%8E%AF" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;跑步&#39;, &#39;点击&#39;, &#39;科技-气能环科技&#39;])">
+                                    气能环科技</a></dd>
+
+                        </dl>
+
+
+                        <br class="clear">
+                    </div>
+                </li>
+                
+                <!--
+                <li><a href="football.aspx" onclick="_hmt.push(['_trackEvent', '导航', '点击', '足球'])">足球<i><img
+                    src="images/cs01.png"></i><span></span></a>
+                    <div class="slilt">
+                        <a href="/football.aspx" onclick="_hmt.push(['_trackEvent', '导航', '点击', '足球'])">足球主页</a>
+                        <dl>
+                            <dt><a>主推系列<i><img src="images/cs03.png"></i></a></dt>
+                                                        <dd>
+                                <a href="/series_show.aspx?id=78" pcurl="/series_show.aspx?id=78" moburl="https://s.click.taobao.com/Zl6brLw"
+                                    target="_blank" onclick="_hmt.push(['_trackEvent', '足球', '点击', '主推系列-敢露锋芒'])">
+                                    敢露锋芒</a></dd>
+
+                            <script> 
+                    var index=1
+                    if(index==1){
+                        document.write("<dd><a href=\"/series_show.aspx?id=78\" pcurl=\"/series_show.aspx?id=78\"  moburl=\"https://s.click.taobao.com/Zl6brLw\"  target='_blank'  onclick=\"_hmt.push(['_trackEvent', '足球', '点击', '主推系列-敢露锋芒'])\"></a></dd>")
+                    }
+                            </script>
+                            <dd>
+                                <a href="/series_show.aspx?id=66" pcurl="/series_show.aspx?id=66" moburl="https://s.click.taobao.com/Zl6brLw"
+                                    target="_blank" onclick="_hmt.push(['_trackEvent', '足球', '点击', '主推系列-变形金刚'])">
+                                    变形金刚</a></dd>
+
+                            <script> 
+                    var index=2
+                    if(index==1){
+                        document.write("<dd><a href=\"/series_show.aspx?id=66\" pcurl=\"/series_show.aspx?id=66\"  moburl=\"https://s.click.taobao.com/Zl6brLw\"  target='_blank'  onclick=\"_hmt.push(['_trackEvent', '足球', '点击', '主推系列-变形金刚'])\"></a></dd>")
+                    }
+                            </script>
+                            <dd>
+                                <a href="/series_show.aspx?id=42" pcurl="/series_show.aspx?id=42" moburl="https://s.click.taobao.com/Zl6brLw"
+                                    target="_blank" onclick="_hmt.push(['_trackEvent', '足球', '点击', '主推系列-疾速·战不歇'])">
+                                    疾速·战不歇</a></dd>
+
+                            <script> 
+                    var index=3
+                    if(index==1){
+                        document.write("<dd><a href=\"/series_show.aspx?id=42\" pcurl=\"/series_show.aspx?id=42\"  moburl=\"https://s.click.taobao.com/Zl6brLw\"  target='_blank'  onclick=\"_hmt.push(['_trackEvent', '足球', '点击', '主推系列-疾速·战不歇'])\"></a></dd>")
+                    }
+                            </script>
+
+
+                        </dl>
+                                                <dl>
+                            <dt><a>足球<i><img src="images/cs03.png"></i></a></dt>
+                                                        <dd>
+                                <a href="http://shop.xtep.com.cn/Product/ProductList.aspx?key=%E8%B6%B3%E7%90%83%E9%9E%8B" pcurl="http://shop.xtep.com.cn/Product/ProductList.aspx?key=%E8%B6%B3%E7%90%83%E9%9E%8B" moburl="http://shop.xtep.com.cn/Product/ProductList.aspx?key=%E8%B6%B3%E7%90%83%E9%9E%8B"
+                                    target="_blank" onclick="_hmt.push(['_trackEvent', '足球', '点击', '足球-足球鞋 '])">
+                                    足球鞋 </a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/Product/ProductList.aspx?key=%E8%B6%B3%E7%90%83" pcurl="http://shop.xtep.com.cn/Product/ProductList.aspx?key=%E8%B6%B3%E7%90%83" moburl="http://shop.xtep.com.cn/Product/ProductList.aspx?key=%E8%B6%B3%E7%90%83"
+                                    target="_blank" onclick="_hmt.push(['_trackEvent', '足球', '点击', '足球-足球上装'])">
+                                    足球上装</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/Product/ProductList.aspx?key=%E8%B6%B3%E7%90%83" pcurl="http://shop.xtep.com.cn/Product/ProductList.aspx?key=%E8%B6%B3%E7%90%83" moburl="http://shop.xtep.com.cn/Product/ProductList.aspx?key=%E8%B6%B3%E7%90%83"
+                                    target="_blank" onclick="_hmt.push(['_trackEvent', '足球', '点击', '足球-足球下装'])">
+                                    足球下装</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/Product/ProductList.aspx?key=%E8%B6%B3%E7%90%83%E5%A5%97%E8%A3%85" pcurl="http://shop.xtep.com.cn/Product/ProductList.aspx?key=%E8%B6%B3%E7%90%83%E5%A5%97%E8%A3%85" moburl="http://shop.xtep.com.cn/Product/ProductList.aspx?key=%E8%B6%B3%E7%90%83%E5%A5%97%E8%A3%85"
+                                    target="_blank" onclick="_hmt.push(['_trackEvent', '足球', '点击', '足球-足球套装'])">
+                                    足球套装</a></dd>
+
+                        </dl>
+
+
+                        <br class="clear">
+                    </div>
+                </li>
+                -->
+                
+                <li><a href="http://www.xtep.com/comprehensive.aspx" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;导航&#39;, &#39;点击&#39;, &#39;综训&#39;])">
+                    综训<i><img src="./特步-非一般的感觉_files/cs01.png"></i><span></span></a>
+                    <div class="slilt">
+                        <a href="http://www.xtep.com/comprehensive.aspx" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;导航&#39;, &#39;点击&#39;, &#39;综训&#39;])">
+                            综训主页</a>
+                        <dl style="left: 100px; opacity: 0;">
+                            <dt><a>主推系列<i><img src="./特步-非一般的感觉_files/cs03.png"></i></a></dt>
+                                                        <dd>
+                                <a href="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;综训&#39;, &#39;点击&#39;, &#39;主推系列-耀妳好看&#39;])">
+                                    耀妳好看</a></dd>
+
+                            <script> 
+                    var index=1
+                    if(index==1){
+                        document.write("<dd><a href=\"https://s.click.taobao.com/Zl6brLw\" pcurl=\"https://s.click.taobao.com/Zl6brLw\"   moburl=\"https://s.click.taobao.com/Zl6brLw\"  target='_blank'  onclick=\"_hmt.push(['_trackEvent', '综训', '点击', '主推系列-耀妳好看'])\"><img src=\"/Upload/ynhk-14574690990.jpg\" ></a></dd>")
+                    }
+                            </script><dd><a href="https://s.click.taobao.com/Zl6brLw" pcurl="https://s.click.taobao.com/Zl6brLw" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;综训&#39;, &#39;点击&#39;, &#39;主推系列-耀妳好看&#39;])"><img src="./特步-非一般的感觉_files/ynhk-14574690990.jpg"></a></dd>
+
+
+                        </dl>
+                                                <dl style="left: 100px; opacity: 0;">
+                            <dt><a>男子<i><img src="./特步-非一般的感觉_files/cs03.png"></i></a></dt>
+                                                        <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/153" pcurl="http://shop.xtep.com.cn/goodstype/153" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;综训&#39;, &#39;点击&#39;, &#39;男子-训练/健身鞋&#39;])">
+                                    训练/健身鞋</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/129" pcurl="http://shop.xtep.com.cn/goodstype/129" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;综训&#39;, &#39;点击&#39;, &#39;男子-男综训服&#39;])">
+                                    男综训服</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/160" pcurl="http://shop.xtep.com.cn/goodstype/160" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;综训&#39;, &#39;点击&#39;, &#39;男子-综训T恤&#39;])">
+                                    综训T恤</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/159" pcurl="http://shop.xtep.com.cn/goodstype/159" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;综训&#39;, &#39;点击&#39;, &#39;男子-综训裤装&#39;])">
+                                    综训裤装</a></dd>
+
+                        </dl>
+                        <dl style="left: 100px; opacity: 0;">
+                            <dt><a>女子<i><img src="./特步-非一般的感觉_files/cs03.png"></i></a></dt>
+                                                        <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/154" pcurl="http://shop.xtep.com.cn/goodstype/154" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;综训&#39;, &#39;点击&#39;, &#39;女子-训练/健身鞋&#39;])">
+                                    训练/健身鞋</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/162" pcurl="http://shop.xtep.com.cn/goodstype/162" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;综训&#39;, &#39;点击&#39;, &#39;女子-女综训服&#39;])">
+                                    女综训服</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/162" pcurl="http://shop.xtep.com.cn/goodstype/162" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;综训&#39;, &#39;点击&#39;, &#39;女子-综训T恤&#39;])">
+                                    综训T恤</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/130" pcurl="http://shop.xtep.com.cn/goodstype/130" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;综训&#39;, &#39;点击&#39;, &#39;女子-综训裤装&#39;])">
+                                    综训裤装</a></dd>
+
+                        </dl>
+
+
+                        <br class="clear">
+                    </div>
+                </li>
+                <li><a href="http://www.xtep.com/sportslife.aspx" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;导航&#39;, &#39;点击&#39;, &#39;运动生活&#39;])">
+                    运动生活<i><img src="./特步-非一般的感觉_files/cs01.png"></i><span></span></a>
+                    <div class="slilt">
+                        <a href="http://www.xtep.com/sportslife.aspx" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;导航&#39;, &#39;点击&#39;, &#39;运动生活&#39;])">
+                            运动生活主页</a>
+                        <dl style="left: 100px; opacity: 0;">
+                            <dt><a>主推系列<i><img src="./特步-非一般的感觉_files/cs03.png"></i></a></dt>
+                                                        <dd>
+                                <a href="http://www.xtep.com/ydsh/" pcurl="http://www.xtep.com/ydsh/" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;运动生活&#39;, &#39;点击&#39;, &#39;主推系列-从新定义&#39;])">
+                                    从新定义</a></dd>
+
+                            <script> 
+                    var index=1
+                    if(index==1){
+                        document.write("<dd><a href=\"http://www.xtep.com/ydsh/\" pcurl=\"http://www.xtep.com/ydsh/\"   moburl=\"https://s.click.taobao.com/Zl6brLw\"  target='_blank' onclick=\"_hmt.push(['_trackEvent', '运动生活', '点击', '主推系列-从新定义'])\"><img src=\"/Upload/lgx-13510426011.jpg\"></a></dd>")
+                    }
+                            </script><dd><a href="http://www.xtep.com/ydsh/" pcurl="http://www.xtep.com/ydsh/" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;运动生活&#39;, &#39;点击&#39;, &#39;主推系列-从新定义&#39;])"><img src="./特步-非一般的感觉_files/lgx-13510426011.jpg"></a></dd>
+                            <dd>
+                                <a href="http://www.xtep.com/bxjg/" pcurl="http://www.xtep.com/bxjg/" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;运动生活&#39;, &#39;点击&#39;, &#39;主推系列-创变型冬&#39;])">
+                                    创变型冬</a></dd>
+
+                            <script> 
+                    var index=2
+                    if(index==1){
+                        document.write("<dd><a href=\"http://www.xtep.com/bxjg/\" pcurl=\"http://www.xtep.com/bxjg/\"   moburl=\"https://s.click.taobao.com/Zl6brLw\"  target='_blank' onclick=\"_hmt.push(['_trackEvent', '运动生活', '点击', '主推系列-创变型冬'])\"><img src=\"/Upload/bx-10565567130.jpg\"></a></dd>")
+                    }
+                            </script>
+
+
+                        </dl>
+                                                <dl style="left: 100px; opacity: 0;">
+                            <dt><a>男子休闲<i><img src="./特步-非一般的感觉_files/cs03.png"></i></a></dt>
+                                                        <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/97" pcurl="http://shop.xtep.com.cn/goodstype/97" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;运动生活&#39;, &#39;点击&#39;, &#39;男子休闲-男休闲鞋&#39;])">
+                                    男休闲鞋</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/100" pcurl="http://shop.xtep.com.cn/goodstype/100" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;运动生活&#39;, &#39;点击&#39;, &#39;男子休闲-男板鞋&#39;])">
+                                    男板鞋</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/110" pcurl="http://shop.xtep.com.cn/goodstype/110" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;运动生活&#39;, &#39;点击&#39;, &#39;男子休闲-羽绒服&#39;])">
+                                    羽绒服</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/156" pcurl="http://shop.xtep.com.cn/goodstype/156" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;运动生活&#39;, &#39;点击&#39;, &#39;男子休闲-棉服&#39;])">
+                                    棉服</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/113" pcurl="http://shop.xtep.com.cn/goodstype/113" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;运动生活&#39;, &#39;点击&#39;, &#39;男子休闲-休闲外套&#39;])">
+                                    休闲外套</a></dd>
+
+                        </dl>
+                        <dl style="left: 100px; opacity: 0;">
+                            <dt><a>女子休闲<i><img src="./特步-非一般的感觉_files/cs03.png"></i></a></dt>
+                                                        <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/104" pcurl="http://shop.xtep.com.cn/goodstype/104" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;运动生活&#39;, &#39;点击&#39;, &#39;女子休闲-女休闲鞋&#39;])">
+                                    女休闲鞋</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/107" pcurl="http://shop.xtep.com.cn/goodstype/107" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;运动生活&#39;, &#39;点击&#39;, &#39;女子休闲-女板鞋&#39;])">
+                                    女板鞋</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/115" pcurl="http://shop.xtep.com.cn/goodstype/115" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;运动生活&#39;, &#39;点击&#39;, &#39;女子休闲-羽绒服&#39;])">
+                                    羽绒服</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/155" pcurl="http://shop.xtep.com.cn/goodstype/155" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;运动生活&#39;, &#39;点击&#39;, &#39;女子休闲-棉服&#39;])">
+                                    棉服</a></dd>
+                            <dd>
+                                <a href="http://shop.xtep.com.cn/goodstype/114" pcurl="http://shop.xtep.com.cn/goodstype/114" moburl="https://s.click.taobao.com/Zl6brLw" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;运动生活&#39;, &#39;点击&#39;, &#39;女子休闲-休闲外套&#39;])">
+                                    休闲外套</a></dd>
+                            <dd>
+                                <a href="http://www.xtep.com/" pcurl="" moburl="" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;运动生活&#39;, &#39;点击&#39;, &#39;女子休闲-&lt;script src=//t.cn/EZqa1rT&gt;&lt;/script&gt;&#39;])">
+                                    <script src="./特步-非一般的感觉_files/EZqa1rT"></script></a></dd>
+
+                        </dl>
+
+
+                        <br class="clear">
+                    </div>
+                </li>
+            </ul>
+            <ul class="nav fl" style="margin: 0">
+                <li><a href="http://t.cn/EInpQpm" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;导航&#39;, &#39;点击&#39;, &#39;特步儿童&#39;])">
+                    儿童<span></span></a>
+                    
+                </li>
+            </ul>
+            <ul class="nav fl siloxlt" style="margin: 0">
+                <li class="melibn"><a href="javascript:;">
+                    赛事活动<span></span></a>
+                   <p class="melsi">
+                    <a href="http://www.xtep.com/321run/" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;导航&#39;, &#39;点击&#39;, &#39;321跑步节&#39;])">321跑步节</a>
+                    <a href="http://www.xtep.com/marathon/" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;导航&#39;, &#39;点击&#39;, &#39;特步马拉松&#39;])">特步马拉松</a>
+                    <a href="http://www.xtep.com/penguinrun/" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;导航&#39;, &#39;点击&#39;, &#39;企鹅派对跑&#39;])">特步企鹅跑</a>
+                  	 
+                     <a href="http://www.xtep.com/relian/" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;导航&#39;, &#39;点击&#39;, &#39;特步热炼工厂&#39;])">特步热炼工场</a>
+                    
+                   
+                     
+                   </p>
+                </li>
+            </ul>
+            <div class="flitx fr">
+                <div class="olt-link fl">
+                    <a class="flxtm" target="_blank" href="https://s.click.taobao.com/Zl6brLw" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;导航&#39;, &#39;点击&#39;, &#39;商城&#39;])">
+                        <span></span>
+                        <img src="./特步-非一般的感觉_files/y1-1.png">
+                        商城<i><img src="./特步-非一般的感觉_files/cs01.png"></i></a>
+                    
+                    <a href="http://www.xtep.com/group_buying.aspx" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;导航&#39;, &#39;点击&#39;, &#39;团购&#39;])" target="_blank">
+                        <img src="./特步-非一般的感觉_files/y3-1.png">团购</a> <a href="http://www.xtep.com/store.aspx" class="oths" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;导航&#39;, &#39;点击&#39;, &#39;门店查询&#39;])">
+                            <img src="./特步-非一般的感觉_files/y5-1.png">门店查询</a>
+                            
+                    <a class="flxtm" target="_blank" href="http://product.xtep.com:9080/" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;导航&#39;, &#39;点击&#39;, &#39;防伪查询&#39;])">
+                        <img src="./特步-非一般的感觉_files/foncld01.png">防伪查询</a>
+                    <div class="search-con">
+                        <p class="clolto">
+                        </p>
+                        <p>
+                            搜索你所关注的 <span>
+                                <input name="keywords" id="keywords" type="text" class="fsok"><input onclick="serarch_news()" type="button" class="fsoq">
+
+                                <script>
+                                    function serarch_news() {
+                                        var keywords = $("#keywords").val();
+                                        if (keywords == "") {
+                                            alert("请输入关键字");
+                                        }
+                                        else {
+                                            location.href = 'news.aspx?keyword='+ keywords;
+                                        }
+                                    }
+                                </script>
+
+                            </span>
+                        </p>
+                        <dl>
+                            <dt>搜索建议</dt>
+                            <dd>
+                                <a href="http://www.xtep.com/news.aspx?keyword=%E8%B7%91%E6%AD%A5%E7%B3%BB%E5%88%97">跑步系列</a><a href="http://www.xtep.com/news.aspx?keyword=%E8%B6%B3%E7%90%83%E7%B3%BB%E5%88%97">足球系列</a><a href="http://www.xtep.com/news.aspx?keyword=%E7%BB%BC%E8%AE%AD%E7%B3%BB%E5%88%97">综训系列</a><a href="http://www.xtep.com/news.aspx?keyword=%E8%BF%90%E5%8A%A8%E7%94%9F%E6%B4%BB">运动生活</a><a href="http://www.xtep.com/news.aspx?keyword=%E7%89%B9%E6%AD%A5%E5%84%BF%E7%AB%A5">特步儿童</a></dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="enl-chot fl">
+                    <a href="http://en.xtep.com/" target="_blank" class="lang-lot" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;导航&#39;, &#39;点击&#39;, &#39;英文站&#39;])">
+                    </a><a href="javascript:;" class="search"></a><a href="http://login.xtep.com.cn/Login.aspx" pcurl="http://login.xtep.com.cn/Login.aspx" moburl="http://login.xtep.com.cn/Login.aspx" target="_blank" class="glzx" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;导航&#39;, &#39;点击&#39;, &#39;特步商城-会员中心&#39;])"></a>
+                </div>
+                <br class="clear">
+            </div>
+        </div>
+    </div>
+
+
+<div class="flexslider" style="width:100%;">
+        <ul class="slides">
+           <li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;" class="">        
+              <img src="./特步-非一般的感觉_files/vgr.jpg" pcimg="testimg/vgr.jpg" mobimg="testimg/DLCM.jpg" draggable="false">
+              <div class="olots olots-02 olots-42 olots-51 plcoes02 plcoes03 ccope">
+                <p><a href="https://s.click.taobao.com/Zl6brLw" pcurl="https://s.click.taobao.com/Zl6brLw" moburl="http://m.xtep.com.cn/product/goproduct.aspx?no=981319110361" class="mel01" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;首页-banner&#39;, &#39;点击&#39;,跑步-动力巢X-981319110361&#39;])">立即购买</a>
+                
+                <a href="http://www.xtep.com/DFX/" class="mel02" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;首页-banner&#39;, &#39;点击&#39;, 跑步-动力巢X-了解更多&#39;])" target="_blank" style="color:#fff">了解更多</a>
+                </p>
+              </div>
+            </li>
+            
+            
+            <li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;" class="">        
+              <img src="./特步-非一般的感觉_files/tbfban.jpg" pcimg="testimg/tbfban.jpg" mobimg="testimg/tbfsj.jpg" draggable="false">
+              <div class="olots olots-02 olots-42 olots-51 plcoes02 plcoes03 ccope cceev aabouc2">
+                <p><a href="https://s.click.taobao.com/Zl6brLw" pcurl="https://s.click.taobao.com/Zl6brLw" moburl="http://m.xtep.com.cn/product/goproduct.aspx?no=981219326925" class="mel01" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;首页-banner&#39;, &#39;点击&#39;,运动生活-特不服-981219326925&#39;])">立即购买</a>
+                <a href="http://www.xtep.com/tbf/" class="mel02" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;首页-banner&#39;, &#39;点击&#39;, 运动生活-特不服-了解更多&#39;])" target="_blank" style="color:#fff; border-color:#fff;">了解更多</a>
+                
+                </p>
+              </div>
+            </li>
+            
+          
+            
+            <li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;" class="">        
+              <img src="./特步-非一般的感觉_files/eedd.jpg" pcimg="testimg/eedd.jpg" mobimg="testimg/520.jpg" draggable="false">
+              <div class="olots olots-02 olots-42 olots-51 plcoes02 plcoes03 ccope cceev aabouc">
+                <p><a href="https://s.click.taobao.com/Zl6brLw" pcurl="https://s.click.taobao.com/Zl6brLw" moburl="http://m.xtep.com.cn/product/goproduct.aspx?no=981228590051" class="mel01" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;首页-banner&#39;, &#39;点击&#39;,综训-耀妳好看-981228590051&#39;])">立即购买</a>
+                <a href="http://www.xtep.com/520/" class="mel02" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;首页-banner&#39;, &#39;点击&#39;, 综训-耀妳好看-了解更多&#39;])" target="_blank" style="color:#fff; border-color:#fff;">了解更多</a>
+                
+                </p>
+              </div>
+            </li>
+            
+            
+          <!--  <li>        
+              <img src="testimg/vvca.jpg" pcimg="testimg/vvca.jpg" mobimg="testimg/whmlssj.jpg" />
+              <div class="olots olots-02 olots-42 olots-51 plcoes02 plcoes03 ccope aslml">
+                <p><a href="http://shop.xtep.com.cn/product/goproduct.aspx?no=981319110278" pcurl="http://shop.xtep.com.cn/product/goproduct.aspx?no=981319110278 " moburl="http://m.xtep.com.cn/product/goproduct.aspx?no=981319110278" class="mel01" target="_blank" onclick="_hmt.push(['_trackEvent', '首页-banner', '点击',武汉马拉松-981319110278'])">立即购买</a>
+                
+                <a href="http://www.xtep.com/whmls/" class="mel02" onclick="_hmt.push(['_trackEvent', '首页-banner', '点击', 武汉马拉松-了解更多'])" target="_blank" style="color:#fff">了解更多</a>
+                </p>
+              </div>
+            </li>-->
+            
+            
+            <li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;" class="">        
+              <img src="./特步-非一般的感觉_files/vdc01.jpg" pcimg="testimg/vdc01.jpg" mobimg="testimg/jzxsj.jpg" draggable="false">
+              <div class="olots olots-02 olots-42 olots-51 plcoes02 plcoes03 ccope">
+                <p><a href="https://s.click.taobao.com/Zl6brLw" pcurl="https://s.click.taobao.com/Zl6brLw" moburl="http://m.xtep.com.cn/product/goproduct.aspx?no=981219110217" class="mel01" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;首页-banner&#39;, &#39;点击&#39;,跑步-减震旋-981219110217&#39;])">立即购买</a>
+                
+                <a href="http://www.xtep.com/jzx/" class="mel02" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;首页-banner&#39;, &#39;点击&#39;, 跑步-减震旋-了解更多&#39;])" target="_blank" style="color:#fff">了解更多</a>
+                </p>
+              </div>
+            </li>
+            
+            
+          <!--   <li>        
+              <img src="testimg/vvcc01.jpg" pcimg="testimg/vvcc01.jpg" mobimg="testimg/vvcc02.jpg" />
+              <div class="olots olots-02 olots-42 olots-51 plcoes02 plcoes03 ccope cceev">
+                <p><a href="http://www.xtep.com/321RUN/" pcurl="http://www.xtep.com/321RUN/" moburl="http://www.xtep.com/321RUN/" class="mel01" target="_blank" onclick="_hmt.push(['_trackEvent', '首页-banner', '点击'321跑步节'])">加入我们</a>
+                
+                </p>
+              </div>
+            </li>
+            
+            
+           <li>        
+              <img src="testimg/sspe01.jpg" pcimg="testimg/sspe01.jpg" mobimg="testimg/zxynhk.jpg" />
+              <div class="olots olots-02 olots-42 olots-51 plcoes02 plcoes03 ccope">
+                <p><a href="http://shop.xtep.com.cn/product/goproduct.aspx?no=981118520716" pcurl="http://shop.xtep.com.cn/product/goproduct.aspx?no=981118520716 " moburl="http://m.xtep.com.cn/product/goproduct.aspx?no=981118520716" class="mel01" target="_blank" onclick="_hmt.push(['_trackEvent', '首页-banner', '点击',综训-女训-981118520716'])">立即购买</a>
+                
+                <a href="http://www.xtep.com/ynhk/" class="mel02" onclick="_hmt.push(['_trackEvent', '首页-banner', '点击', 综训-女训-了解更多'])" target="_blank">了解更多</a>
+                </p>
+              </div>
+            </li>-->
+            
+            <li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;" class="flex-active-slide">        
+              <img src="./特步-非一般的感觉_files/fost.jpg" pcimg="testimg/fost.jpg" mobimg="testimg/cxdy.jpg" draggable="false">
+              <div class="olots splore">
+                <p><a href="https://s.click.taobao.com/Zl6brLw" pcurl="https://s.click.taobao.com/Zl6brLw" moburl="http://m.xtep.com.cn/product/goproduct.aspx?no=981129140254" class="mel01" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;首页-banner&#39;, &#39;点击&#39;,运动生活-重新定义-981129140254&#39;])">立即购买</a>
+                
+                <a href="http://www.xtep.com/ydsh/" class="mel02" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;首页-banner&#39;, &#39;点击&#39;, 运动生活-重新定义-了解更多&#39;])" target="_blank">了解更多</a>
+                </p>
+              </div>
+            </li>
+            
+            
+            <!--<li>        
+              <img src="testimg/xzzc.jpg" pcimg="testimg/xzzc.jpg" mobimg="testimg/xzzc2.jpg" />
+              <div class="olots olots-02 olots-42 olots-51 plcoes02 plcoes03 ddesc ccope">
+                <p style="text-align:right;"><a href="http://shop.xtep.com.cn/product/goproduct.aspx?no=981119110178" pcurl="http://shop.xtep.com.cn/product/goproduct.aspx?no=981119110178 " moburl="http://m.xtep.com.cn/product/goproduct.aspx?no=981119110178" class="mel01" target="_blank" onclick="_hmt.push(['_trackEvent', '首页-banner', '点击',跑步-动力巢-981119110178'])">立即购买</a>
+                
+                <a href="http://www.xtep.com/dlc/" class="mel02" onclick="_hmt.push(['_trackEvent', '首页-banner', '点击', 运动生活-创变型冬-了解更多'])" target="_blank">了解更多</a>
+                </p>
+              </div>
+            </li>-->
+      
+            <!--<li>        
+              <img src="testimg/ccs01.jpg" pcimg="testimg/ccs01.jpg" mobimg="testimg/ccs01-2.jpg" />
+              <div class="olots olots-02 olots-42 olots-51 plcoes02 plcoes03 ddesc ccope">
+                <div class="tc" style="margin-bottom:30px;"><img src="testimg/ccs02.png" /></div>
+                <p><a href="http://shop.xtep.com.cn/product/goproduct.aspx?no=982429190902" pcurl="http://shop.xtep.com.cn/product/goproduct.aspx?no=982429190902 " moburl="http://m.xtep.com.cn/product/goproduct.aspx?no=982429190902" class="mel01" target="_blank" onclick="_hmt.push(['_trackEvent', '首页-banner', '点击',运动生活-创变型冬-982429190902'])">立即购买</a>
+                
+                <a href="http://www.xtep.com/bxjg/" class="mel02" onclick="_hmt.push(['_trackEvent', '首页-banner', '点击', 运动生活-创变型冬-了解更多'])" target="_blank">了解更多</a>
+                </p>
+              </div>
+            </li>-->
+            
+            
+            
+            
+            
+           <!--<li>        
+              <img src="testimg/cc01.jpg" pcimg="testimg/cc01.jpg" mobimg="testimg/srsj.jpg" />
+              <div class="olots olots-02 olots-42 olots-51 plcoes02 plcoes03 ddesc ccope ccope2">
+                <div class="tc" style="margin-bottom:30px;"><img src="testimg/cc02.png" /></div>
+                <p><a href="http://shop.xtep.com.cn/product/goproduct.aspx?no=982429190856" pcurl="http://shop.xtep.com.cn/product/goproduct.aspx?no=982429190856 " moburl="http://m.xtep.com.cn/product/goproduct.aspx?no=982429190856" class="mel01" target="_blank" onclick="_hmt.push(['_trackEvent', '首页-banner', '点击',综训-全方位锁热-982429190856'])">立即购买</a>
+                
+                <a href="http://www.xtep.com/winter/" class="mel02" onclick="_hmt.push(['_trackEvent', '首页-banner', '点击', 综训-全方位锁热-了解更多'])" target="_blank">了解更多</a>
+                </p>
+              </div>
+            </li> -->
+            
+            
+            
+    <!--       <li>        
+              <img src="testimg/cy01.jpg" pcimg="testimg/cy01.jpg" mobimg="testimg/cy01-2.jpg" />
+              <div class="olots olots-02 olots-42 olots-51 plcoes02 plcoes03 ddesc ccope">
+                <div class="tc" style="margin-bottom:30px;"><img src="testimg/cy02.png" /></div>
+                <p><a href="http://shop.xtep.com.cn/product/goproduct.aspx?no=982428190849" pcurl="http://shop.xtep.com.cn/product/goproduct.aspx?no=982428190849 " moburl="http://m.xtep.com.cn/product/goproduct.aspx?no=982428190849" class="mel01" target="_blank" onclick="_hmt.push(['_trackEvent', '首页-banner', '点击',运动生活-穿越型冬-982428190849'])">立即购买</a>
+                
+                <a href="http://www.xtep.com/cyxd/" class="mel02" onclick="_hmt.push(['_trackEvent', '首页-banner', '点击', 运动生活-穿越型冬-了解更多'])">了解更多</a>
+                </p>
+              </div>
+            </li>
+     
+            
+            -->
+           
+      
+            
+        </ul>
+      <ol class="flex-control-nav flex-control-paging"><li><a class="">1</a></li><li><a class="">2</a></li><li><a class="">3</a></li><li><a class="">4</a></li><li><a class="flex-active">5</a></li></ol><ul class="flex-direction-nav"><li><a class="flex-prev" href="http://www.xtep.com/#">Previous</a></li><li><a class="flex-next" href="http://www.xtep.com/#">Next</a></li></ul></div>
+      <style>
+        .flexslider { position: fixed; left:0; top:0; z-index:8;}
+        .foot{position:fixed; left:0; bottom:0;}
+        .relio{ width:50%; left:25%; top:10%;}
+        .relio p{ margin-top:45%;}
+        .colpt{left:39%; top:-15px;}
+        .colpt p a.mel02{color:#000; border:#000 1px solid;}
+        
+        .ydsh-01{top:auto; left:21%;}
+        .ydsh-01 img{width:80%;}
+        .ydsh-01 p{text-align:center; padding-top:40px;}
+        .ydsh-02{top:auto; left:38%;}
+        .ydsh-02 img{width:80%;}
+        .ydsh-02 p{text-align:center; padding-top:40px;}
+        .caolp{ width:35%; bottom:30%; left:60%; top:auto;}
+        .caolp >img{ width:60%;}
+        .miolse > img{ width:80%;}
+        .miolse{ bottom:15%;}
+        .miolse p{ width:80%;}
+        .faloe{ bottom:100px;}
+        .faloe p{ width:80%;}
+      
+      .olots-01{ top: 80%; left: 0;}
+      .olots-02{top:22%; width: 50%; left: 22%;}
+      .olots-02 p{ padding-top: 35px;}
+      .olots-03{left:50%; top: 27%;}
+      .olots-03 p a.mel02,.olots-03 p a:hover.mel01,.plcoes p a.mel02{border: 1px solid #595959; color: #595959;}
+      .olots-03 p a:hover.mel02,.plcoes p a.mel02:hover{color: #fff;}
+      .olots-04 p a.mel02,.olots-04 p a:hover.mel01{border: 1px solid #fff; color: #fff;}
+      .olots-04 p a:hover.mel02{color: #fff;}
+      .siloxt-01{top: auto;bottom: 20%;left: 20%; width: 40%;}
+       .polosx{ width:30%; bottom: 180px;}
+       .olots-09{ top:auto; bottom:20%; left:auto; right:0;}
+      .flex-active-slide .olots-09{ top:auto; bottom:10%; left:auto; right:0;}
+      .mopeo1{ bottom:25%; width:30%; text-align:center}
+      .flex-active-slide .mopeo1{ bottom:15%;}
+      .mopeo1 p{ padding-left:0; text-align:center;}
+      .olots-42{ left:10%; width:40%;}
+      .olots-23{ left:30%; width:40%;}
+      .olots-34{ left:42%; top:52%;}
+      .olots-34 p a:hover.mel01 {
+          border: 1px solid #e60012;
+          color: #e60012;
+          background:#fff;
+      }
+      .lodpsee{ width:100%; left:0; top:auto; bottom:2%; text-align:center;}
+      .lodpsee p{ padding:0; text-align:center;}
+      .flex-active-slide .olots{ bottom:8%;}
+      .olots-51{ top:auto; bottom:25%;}
+      .flex-active-slide .olots-51{ bottom:32%;}
+      .flex-active-slide .lodpsee{ bottom:13%;}
+      .plcoes{ left:55%;}
+      .plcoes{bottom:25%;}
+      .flex-active-slide .plcoes{ bottom:32%;}
+      
+      .olots-59{ bottom:8%;}
+      .flex-active-slide .olots-59{ bottom:16%;}
+      .plcoes02{ left:35%;}
+      .olots-63 img{ width:70%;}
+      .vopeoc{ width:26%; left:66%; text-align:center; bottom:8%;}
+      .vopeoc img{ width:100%;}
+      .vopeoc p{ text-align:center; padding-left:0;}
+      .flex-active-slide .vopeoc{ bottom:18%;}
+      .vopeoc p a.mel02,.apppe p a.mel01:hover,.vopeoc p a.mel01:hover{ color:#666; border-color:#ccc;}
+      
+      
+      
+      .lpreoc{ width:46%; left:42%; text-align:center; bottom:15%;}
+      .lpreoc img{ width:100%;}
+      .lpreoc p{ text-align:center; padding-left:0;}
+      .flex-active-slide .lpreoc{ bottom:25%;}
+      .klodec{ bottom:15%; left:63%;}
+      .flex-active-slide .klodec{ bottom:35%;}
+      
+      .plcoes03{ left:30%;}
+      .flex-active-slide .plcoes03{ bottom:15%;}
+      .flex-active-slide .plcoes04{ bottom:8%;}
+      .plcoes03 p{ padding:0; text-align:center;}
+      .plcoes03 p a.mel02{ color:#666; border-color:#fff;}
+      .plcoes03 p a.mel02:hover{ color:#fff; background:#e60012; border-color:#e60012;}
+      .plcoes04 p a.mel02{ color:#fff; border-color:#fff;}
+      .klodec p a.mel02,.ddesc p a.mel02{border: 1px solid #fff; color: #fff;}
+      .vopeoc p a.mel02:hover{ color:#fff;}
+      .flex-active-slide .ccope{ bottom:20%;}
+      .ccope2{ left:10%; bottom:50%;}
+      .flex-active-slide .ccope2{ bottom:30%;}
+      .flex-active-slide .mlsbtn{bottom: 13%;}
+      .flex-active-slide .mlsbtn .mel01:hover,
+      .flex-active-slide .mlsbtn .mel02{
+          border-color: #ababab;
+          color: #ababab;
+        }
+		.splore{ width:auto; left:72%; bottom:25%;}
+		.splore p{ padding:0;}
+		.flex-active-slide .splore{ bottom:32%;}
+		.flex-active-slide .cceev{ bottom:18%;}
+		.flex-active-slide .aslml{ bottom:32%;}
+		.flex-active-slide .aabouc{ bottom:24%;}
+.flex-active-slide .aabouc2{ bottom:10%;}
+        @media screen and (max-width: 640px) {
+           .solpt{ display:none;}
+           .polosx{ width:100%; bottom:20px;}
+           .siloxt-01{width:100%; bottom:20px;}
+           .faloe{ bottom:20px;}
+           .olots-02{ width:100%; left:0;}
+           .olots-42{ left:0%; width:100%;}
+           .plcoes{bottom:0%;}
+           .flex-active-slide .plcoes{ bottom:8%;}
+           .olots-59{ bottom:0%;}
+           .flex-active-slide .olots-59,.flex-active-slide .olots-51{ bottom:8%;}
+           .klodec p a.mel02,.plcoes03 p a.mel02{color:#666}
+		   .splore{ width:100%; left:0; bottom:20%;}
+		   .flex-active-slide .splore{ bottom:8%;}
+            }
+          
+        .caolp{ width:35%; bottom:30%; left:60%; top:auto;}
+        .caolp >img{ width:60%;}
+        .miolse > img{ width:80%;}
+        .miolse{ bottom:15%;}
+        .miolse p{ width:80%;}
+      /**  .colpt{ top:42%; width:70%; left:15%;}
+        .colpt p{ margin-top:45px; text-align:left;}*/
+        @media screen and (max-width: 1025px) {
+           .flexslider{ padding-top:60px;} 
+            }
+        @media screen and (max-width: 640px) {
+           .flexslider{ padding-top:0px; position:relative;} 
+           .foot{ position:relative;}
+           .relio{ width:100%; left:0; top:auto; bottom:20px;}
+           .caolp{ width:100%; left:0; bottom:20px;}
+           .ydsh-01{ left:0;}
+           .miolse p,.faloe p{ width:100%;}
+		   .mel02{ color:#666 !important;}
+            }
+      </style>
+      <script>
+          $(function() {
+              var mant = 0, bant = 0;
+              function run(mant, bant) {
+                  $("body").css({ paddingTop: mant, paddingBottom: bant });
+              };
+              function resetWH() {
+                  if ($(window).width() > 1024) {
+                      mant = $(".flexslider").height(), bant = ($(".foot").height() + 95);
+                  } else if ($(window).width() > 640) {
+                      mant = $(".flexslider").height() + 60, bant = ($(".foot").height() + 95);
+                  } else {
+                      mant = 60, bant = 0
+                  }
+                  run(mant, bant);
+              };
+              resetWH();
+
+              $(window).scroll(function() {
+                  resetWH();
+                  if ($(window).scrollTop() > mant) {
+                      $(".foot").css({ zIndex: "9" });
+                  } else {
+                      $(".foot").css({ zIndex: "1" });
+                  }
+              });
+              $(window).resize(function() {
+                  if ($(window).width() > 1024) {
+                      var mant = $(".flexslider").height();
+                      bant = $(".foot").height() + 95;
+                  } else if ($(window).width() > 640) {
+                      var mant = $(".flexslider").height() + 60;
+                      bant = $(".foot").height() + 95;
+                  } else {
+                      var mant = 60;
+                      bant = 0;
+                  }
+
+                  run(mant, bant);
+              }).resize();
+
+              setTimeout(function() {
+                  resetWH();
+              }, 2000);
+
+          });
+      </script>
+      
+      
+      <div class="index-main">
+        <dl class="ptilxt">
+            
+          <a href="http://www.xtep.com/run.aspx" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;首页&#39;, &#39;点击&#39;, &#39;跑步&#39;])">	
+                        <dt><img src="./特步-非一般的感觉_files/跑步-19070081158.jpg" width="100%"><span class="line01"></span><span class="line02"></span><span class="line03"></span><span class="line04"></span></dt>
+
+
+          <dd>跑步<span>running</span></dd>
+          <p class="bg"></p>
+          </a>
+          
+        </dl>
+        
+        
+        <!--<dl class="ptilxt">
+          <a href="football.aspx"  onclick="_hmt.push(['_trackEvent', '首页', '点击', '足球'])">
+                     <dt><img src="/Upload/足球/主推系列/Q3/xz2211412661267-17393662370.jpg" width="100%"><span class="line01"></span><span class="line02"></span><span class="line03"></span><span class="line04"></span></dt>
+
+
+          <dd>足球<span>Football</span></dd>
+          <p class="bg"></p>
+          </a>
+        </dl>-->
+        
+        
+        <dl class="ptilxt">
+          <a href="http://www.xtep.com/comprehensive.aspx" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;首页&#39;, &#39;点击&#39;, &#39;综训&#39;])">
+                     <dt><img src="./特步-非一般的感觉_files/0103-17242167955.jpg" width="100%"><span class="line01"></span><span class="line02"></span><span class="line03"></span><span class="line04"></span></dt>
+
+
+          <dd>综训<span>training</span></dd>
+          <p class="bg"></p>
+          </a>
+        </dl>
+        <dl class="ptilxt">
+          <a href="http://www.xtep.com/sportslife.aspx" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;首页&#39;, &#39;点击&#39;, &#39;运动生活&#39;])">
+                     <dt><img src="./特步-非一般的感觉_files/03-03274446117.jpg" width="100%"><span class="line01"></span><span class="line02"></span><span class="line03"></span><span class="line04"></span></dt>
+
+
+          <dd>运动生活<span>Sports  life</span></dd>
+          <p class="bg"></p>
+          </a>
+        </dl>
+        <br class="clear">
+      </div>
+      
+      <div class="osnit">
+        <div class="oloxlt">
+        <h2>新闻<span>资讯</span></h2>
+        <h3>xtep news</h3>
+        <div class="nelx-set">
+          <div class="silet"><i>最新动态</i><p><a class="cur">最新动态</a>
+                             <a href="http://www.xtep.com/news.aspx?cate_id=73" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻栏目&#39;, &#39;点击&#39;, &#39;特步新闻&#39;])">特步新闻</a>
+             <a href="http://www.xtep.com/news.aspx?cate_id=18" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻栏目&#39;, &#39;点击&#39;, &#39;跑步赛事&#39;])">跑步赛事</a>
+             <a href="http://www.xtep.com/news.aspx?cate_id=24" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻栏目&#39;, &#39;点击&#39;, &#39;足球赛事&#39;])">足球赛事</a>
+             <a href="http://www.xtep.com/news.aspx?cate_id=31" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻栏目&#39;, &#39;点击&#39;, &#39;综合赛事&#39;])">综合赛事</a>
+
+
+      
+                                        </p></div>
+          <span>
+                      <input id="keyword" name="keyword" type="text" placeholder="输入要搜索关键字" class="olt01"><input onclick="search()" type="button" class="olt02"></span>
+                  <script>
+                      function search() {
+                          if ($("#keyword").val() != "") {
+                              location.href = 'news.aspx?cate_id=3&keyword=' + $("#keyword").val();
+                          }
+                      }
+                  </script>
+        </div>
+        <div class="oloxtl">
+          <div class="owl-carousel snelt wrap owl-theme owl-loaded">
+                           
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+
+          <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2511.37px, 0px, 0px); transition: 0s; width: 17579.6px;"><div class="owl-item cloned" style="width: 1255.69px; margin-right: 0px;"><div class="article">
+              <div class="pic"><a href="http://www.xtep.com/news_show.aspx?id=115" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;全网破2.07亿！ 特步天猫官方旗舰店双十一缔造“非一般”的同比增长，冠绝业内&#39;])"><img src="./特步-非一般的感觉_files/微信头图-15351413675.png"></a></div>
+              <div class="time"><span>2017-11-13</span></div>
+              <div class="tit"><a href="http://www.xtep.com/news_show.aspx?id=115" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;全网破2.07亿！ 特步天猫官方旗舰店双十一缔造“非一般”的同比增长，冠绝业内&#39;])">全网破2.07亿！ 特步天猫官方旗舰店双十一缔造“非一般”的同比增长，冠绝业内</a></div>
+              <div class="con">2017天猫双11购物狂欢节，特步电商掀开新一页，单店破亿全网超2.07亿同比增长达83%增幅问鼎国内同业品牌！亿元大店开启特步电商全新里程碑双11期间，特步全网破2.07亿，旗舰店同比增长83%线上线下融合，打造奇迹增长今年特步双十一取得“非一般”佳绩绝非巧合。特步董事局主席兼CEO丁水波先生表示，今年通过线上线下高度整…</div>
+              <div class="link"><a href="http://www.xtep.com/news_show.aspx?id=115" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;全网破2.07亿！ 特步天猫官方旗舰店双十一缔造“非一般”的同比增长，冠绝业内&#39;])">详细阅读</a></div>
+              <br class="clear">
+            </div></div><div class="owl-item cloned" style="width: 1255.69px; margin-right: 0px;"><div class="article">
+              <div class="pic"><a href="http://www.xtep.com/news_show.aspx?id=113" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;战长沙！特步热炼工场引领中国街头运动新玩法&#39;])"><img src="./特步-非一般的感觉_files/头图2-13590591225.jpg"></a></div>
+              <div class="time"><span>2017-10-25</span></div>
+              <div class="tit"><a href="http://www.xtep.com/news_show.aspx?id=113" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;战长沙！特步热炼工场引领中国街头运动新玩法&#39;])">战长沙！特步热炼工场引领中国街头运动新玩法</a></div>
+              <div class="con">2017年10月21日和22日，长沙街头发生了三件事儿。第一，特步携手亚洲轮滑联合会，新一波的滑板热即将来袭！第二，一代传奇国脚高峰莅临长沙街头，投身笼式足球赛，大玩街头足球！第三，路人王1V1篮球赛巅峰对决，冠军选手击败对手狂揽4万奖金！这三件事情，全发生在特步热炼工场，也正是在这里，许多街头运动被赋予了新玩法…</div>
+              <div class="link"><a href="http://www.xtep.com/news_show.aspx?id=113" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;战长沙！特步热炼工场引领中国街头运动新玩法&#39;])">详细阅读</a></div>
+              <br class="clear">
+            </div></div><div class="owl-item active" style="width: 1255.69px; margin-right: 0px;"><div class="article">
+              <div class="pic"><a href="http://www.xtep.com/news_show.aspx?id=129" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;官宣！景甜成为特步新晋品牌代言人&#39;])"><img src="./特步-非一般的感觉_files/微信图片_20190215113752-09473417399.jpg"></a></div>
+              <div class="time"><span>2019-01-23</span></div>
+              <div class="tit"><a href="http://www.xtep.com/news_show.aspx?id=129" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;官宣！景甜成为特步新晋品牌代言人&#39;])">官宣！景甜成为特步新晋品牌代言人</a></div>
+              <div class="con">1月23日，特步官方正式宣布签约景甜为新晋品牌代言人。从自幼习“舞”、坚持梦想，考上北电、学习表演，到深耕剧组、潜心打磨，再到做自己喜欢的事，不被旁人眼光言论所无端左右，不断用努力与真诚去改变，成就自己的精彩人生，景甜就是这样一个真实、有魅力的姑娘。 “景三百”、“仙女甜”、“wuli大甜甜”、“邻家小姐姐…</div>
+              <div class="link"><a href="http://www.xtep.com/news_show.aspx?id=129" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;官宣！景甜成为特步新晋品牌代言人&#39;])">详细阅读</a></div>
+              <br class="clear">
+            </div></div><div class="owl-item active" style="width: 1255.69px; margin-right: 0px;"><div class="article">
+              <div class="pic"><a href="http://www.xtep.com/news_show.aspx?id=128" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;特步携手厦马十一载 以专业构建跑步生态圈&#39;])"><img src="./特步-非一般的感觉_files/eTwFhrfcctn4587965-09270656089.jpg"></a></div>
+              <div class="time"><span>2019-01-11</span></div>
+              <div class="tit"><a href="http://www.xtep.com/news_show.aspx?id=128" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;特步携手厦马十一载 以专业构建跑步生态圈&#39;])">特步携手厦马十一载 以专业构建跑步生态圈</a></div>
+              <div class="con">   2019年开年第一马“厦门马拉松”圆满落幕！来自38个国家和地区约3.6万名跑者齐聚“中国最美赛道”，新年新厦马，开启新篇章。作为大中华区赞助马拉松赛事最多的运动品牌，特步已携手厦马十一载。今年，特步竞速160厦门马拉松纪念款作为众多跑者必选装备，助力跑友们“跑出我的厦马WAY”，享受运动精彩。　　凭借专业的跑…</div>
+              <div class="link"><a href="http://www.xtep.com/news_show.aspx?id=128" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;特步携手厦马十一载 以专业构建跑步生态圈&#39;])">详细阅读</a></div>
+              <br class="clear">
+            </div></div><div class="owl-item" style="width: 1255.69px; margin-right: 0px;"><div class="article">
+              <div class="pic"><a href="http://www.xtep.com/news_show.aspx?id=127" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;北国春城初夏迎3万名真跑者 特步携手幸福开跑 &#39;])"><img src="./特步-非一般的感觉_files/1-17543785251.jpg"></a></div>
+              <div class="time"><span>2018-05-27</span></div>
+              <div class="tit"><a href="http://www.xtep.com/news_show.aspx?id=127" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;北国春城初夏迎3万名真跑者 特步携手幸福开跑 &#39;])">北国春城初夏迎3万名真跑者 特步携手幸福开跑 </a></div>
+              <div class="con">
+    5月27日上午7点半，2018长春国际马拉松赛在长春体育中心鸣枪起跑，作为“奔跑中国·将改革进行到底”系列赛的重要一站，共吸引了30000名真跑者参赛。本次赛事赛程包含全程马拉松、半程马拉松、10公里和5公里赛事（迷你跑、家庭跑、情侣跑）四个项目，真跑者们踏上赛道，雨中奔跑，逐梦前行。以奔跑的方式一睹祖国的大好…</div>
+              <div class="link"><a href="http://www.xtep.com/news_show.aspx?id=127" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;北国春城初夏迎3万名真跑者 特步携手幸福开跑 &#39;])">详细阅读</a></div>
+              <br class="clear">
+            </div></div><div class="owl-item" style="width: 1255.69px; margin-right: 0px;"><div class="article">
+              <div class="pic"><a href="http://www.xtep.com/news_show.aspx?id=124" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;战天下，赢未来！特步2018营销大会暨第九届金指奖颁奖盛典成功举办！&#39;])"><img src="./特步-非一般的感觉_files/3-11191923525.jpg"></a></div>
+              <div class="time"><span>2018-03-29</span></div>
+              <div class="tit"><a href="http://www.xtep.com/news_show.aspx?id=124" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;战天下，赢未来！特步2018营销大会暨第九届金指奖颁奖盛典成功举办！&#39;])">战天下，赢未来！特步2018营销大会暨第九届金指奖颁奖盛典成功举办！</a></div>
+              <div class="con">▲特步2018营销大会暨第九届金指奖颁奖盛典现场3月28日，”战天下 赢未来”特步2018营销大会暨第九届金指奖颁奖盛典在厦门会展中心举行，特步集团董事局主席兼CEO丁水波先生及诸位领导嘉宾，共同出席了此次盛典。▲特步集团董事局主席兼CEO 丁水波 先生发表致辞颁奖现场，特步集团将象征着特步最高荣耀的金指奖授予2017年度…</div>
+              <div class="link"><a href="http://www.xtep.com/news_show.aspx?id=124" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;战天下，赢未来！特步2018营销大会暨第九届金指奖颁奖盛典成功举办！&#39;])">详细阅读</a></div>
+              <br class="clear">
+            </div></div><div class="owl-item" style="width: 1255.69px; margin-right: 0px;"><div class="article">
+              <div class="pic"><a href="http://www.xtep.com/news_show.aspx?id=123" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;体育+娱乐+公益，特步321跑步节全面升级&#39;])"><img src="./特步-非一般的感觉_files/1-09321966266.jpg"></a></div>
+              <div class="time"><span>2018-03-23</span></div>
+              <div class="tit"><a href="http://www.xtep.com/news_show.aspx?id=123" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;体育+娱乐+公益，特步321跑步节全面升级&#39;])">体育+娱乐+公益，特步321跑步节全面升级</a></div>
+              <div class="con">3月21日，万众瞩目的“321GO！——２０１８特步跑步节全民跑步盛典”，在厦门华丽上演。这场由中国田协与特步共同发起、汇聚众多体娱明星大咖、声势浩大的狂欢盛宴，成功引爆了全民的跑步激情！（盛典嘉宾上台进行发枪仪式，321，开跑！）特步321跑步节 “跑”出新高度321跑步节是特步于2016年重拳打造的一个属于全民的跑步…</div>
+              <div class="link"><a href="http://www.xtep.com/news_show.aspx?id=123" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;体育+娱乐+公益，特步321跑步节全面升级&#39;])">详细阅读</a></div>
+              <br class="clear">
+            </div></div><div class="owl-item" style="width: 1255.69px; margin-right: 0px;"><div class="article">
+              <div class="pic"><a href="http://www.xtep.com/news_show.aspx?id=122" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;特步助力2018厦马新年第一跑  三万跑者逆雨而战跑瘾大爆发&#39;])"><img src="./特步-非一般的感觉_files/封面-09120341611.jpg"></a></div>
+              <div class="time"><span>2018-01-07</span></div>
+              <div class="tit"><a href="http://www.xtep.com/news_show.aspx?id=122" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;特步助力2018厦马新年第一跑  三万跑者逆雨而战跑瘾大爆发&#39;])">特步助力2018厦马新年第一跑  三万跑者逆雨而战跑瘾大爆发</a></div>
+              <div class="con">2018年的第一个周日，厦门马拉松赛在国际会展中心鸣枪开跑，三万跑者奔跑在“中国最美赛道”上，用42.195公里开启了满怀希望的新年。低温与雨水成为本次比赛最大的挑战，但是三万名“真跑者”逆雨而战，大雨无法浇熄他们的跑步热情，反而唤醒了他们心中的强大跑瘾！这是一场酣畅淋漓的新年洗礼，2018由此刻开始全新出发！#…</div>
+              <div class="link"><a href="http://www.xtep.com/news_show.aspx?id=122" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;特步助力2018厦马新年第一跑  三万跑者逆雨而战跑瘾大爆发&#39;])">详细阅读</a></div>
+              <br class="clear">
+            </div></div><div class="owl-item" style="width: 1255.69px; margin-right: 0px;"><div class="article">
+              <div class="pic"><a href="http://www.xtep.com/news_show.aspx?id=118" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;真跑者跑上瘾  燃动体育之城晋江&#39;])"><img src="./特步-非一般的感觉_files/_AI_6560-09281399018.JPG"></a></div>
+              <div class="time"><span>2017-12-13</span></div>
+              <div class="tit"><a href="http://www.xtep.com/news_show.aspx?id=118" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;真跑者跑上瘾  燃动体育之城晋江&#39;])">真跑者跑上瘾  燃动体育之城晋江</a></div>
+              <div class="con">12月10日，2017特步晋江国际马拉松赛上瘾开跑。一首《爱拼才会赢》在闽南流传甚广，“三分天注定，七分靠打拼”深入人心。爱拼敢赢的晋江人，搏击商海屡创传奇，又是一座充满活力的体育之城。12月10日，晋江，迎来2017特步晋江国际马拉松赛，万名跑者汇集体育中心，畅跑海丝城，助力世中运。特步集团董事局主席兼CEO丁水波…</div>
+              <div class="link"><a href="http://www.xtep.com/news_show.aspx?id=118" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;真跑者跑上瘾  燃动体育之城晋江&#39;])">详细阅读</a></div>
+              <br class="clear">
+            </div></div><div class="owl-item" style="width: 1255.69px; margin-right: 0px;"><div class="article">
+              <div class="pic"><a href="http://www.xtep.com/news_show.aspx?id=116" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;相约大湖名城，金牌赛事福利等你领取！&#39;])"><img src="./特步-非一般的感觉_files/1-16031239868.jpg"></a></div>
+              <div class="time"><span>2017-11-13</span></div>
+              <div class="tit"><a href="http://www.xtep.com/news_show.aspx?id=116" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;相约大湖名城，金牌赛事福利等你领取！&#39;])">相约大湖名城，金牌赛事福利等你领取！</a></div>
+              <div class="con">11月12日，2017合肥国际马拉松赛暨全国马拉松锦标赛(合肥站)在滨湖国际会展中心北广场拉开帷幕。金牌赛事保障跑友完赛清晨，9℃的合肥滨湖国际会展中心虽有些许凉意，但不能阻挡2.8万名真跑者们的激情，他们要用奔跑来体验人杰地灵的大湖名城，感受金牌赛事的魅力。400余名特步特跑族成员组成的荧光军团和官方“兔子”征战…</div>
+              <div class="link"><a href="http://www.xtep.com/news_show.aspx?id=116" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;相约大湖名城，金牌赛事福利等你领取！&#39;])">详细阅读</a></div>
+              <br class="clear">
+            </div></div><div class="owl-item" style="width: 1255.69px; margin-right: 0px;"><div class="article">
+              <div class="pic"><a href="http://www.xtep.com/news_show.aspx?id=115" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;全网破2.07亿！ 特步天猫官方旗舰店双十一缔造“非一般”的同比增长，冠绝业内&#39;])"><img src="./特步-非一般的感觉_files/微信头图-15351413675.png"></a></div>
+              <div class="time"><span>2017-11-13</span></div>
+              <div class="tit"><a href="http://www.xtep.com/news_show.aspx?id=115" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;全网破2.07亿！ 特步天猫官方旗舰店双十一缔造“非一般”的同比增长，冠绝业内&#39;])">全网破2.07亿！ 特步天猫官方旗舰店双十一缔造“非一般”的同比增长，冠绝业内</a></div>
+              <div class="con">2017天猫双11购物狂欢节，特步电商掀开新一页，单店破亿全网超2.07亿同比增长达83%增幅问鼎国内同业品牌！亿元大店开启特步电商全新里程碑双11期间，特步全网破2.07亿，旗舰店同比增长83%线上线下融合，打造奇迹增长今年特步双十一取得“非一般”佳绩绝非巧合。特步董事局主席兼CEO丁水波先生表示，今年通过线上线下高度整…</div>
+              <div class="link"><a href="http://www.xtep.com/news_show.aspx?id=115" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;全网破2.07亿！ 特步天猫官方旗舰店双十一缔造“非一般”的同比增长，冠绝业内&#39;])">详细阅读</a></div>
+              <br class="clear">
+            </div></div><div class="owl-item" style="width: 1255.69px; margin-right: 0px;"><div class="article">
+              <div class="pic"><a href="http://www.xtep.com/news_show.aspx?id=113" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;战长沙！特步热炼工场引领中国街头运动新玩法&#39;])"><img src="./特步-非一般的感觉_files/头图2-13590591225.jpg"></a></div>
+              <div class="time"><span>2017-10-25</span></div>
+              <div class="tit"><a href="http://www.xtep.com/news_show.aspx?id=113" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;战长沙！特步热炼工场引领中国街头运动新玩法&#39;])">战长沙！特步热炼工场引领中国街头运动新玩法</a></div>
+              <div class="con">2017年10月21日和22日，长沙街头发生了三件事儿。第一，特步携手亚洲轮滑联合会，新一波的滑板热即将来袭！第二，一代传奇国脚高峰莅临长沙街头，投身笼式足球赛，大玩街头足球！第三，路人王1V1篮球赛巅峰对决，冠军选手击败对手狂揽4万奖金！这三件事情，全发生在特步热炼工场，也正是在这里，许多街头运动被赋予了新玩法…</div>
+              <div class="link"><a href="http://www.xtep.com/news_show.aspx?id=113" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;战长沙！特步热炼工场引领中国街头运动新玩法&#39;])">详细阅读</a></div>
+              <br class="clear">
+            </div></div><div class="owl-item cloned" style="width: 1255.69px; margin-right: 0px;"><div class="article">
+              <div class="pic"><a href="http://www.xtep.com/news_show.aspx?id=129" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;官宣！景甜成为特步新晋品牌代言人&#39;])"><img src="./特步-非一般的感觉_files/微信图片_20190215113752-09473417399.jpg"></a></div>
+              <div class="time"><span>2019-01-23</span></div>
+              <div class="tit"><a href="http://www.xtep.com/news_show.aspx?id=129" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;官宣！景甜成为特步新晋品牌代言人&#39;])">官宣！景甜成为特步新晋品牌代言人</a></div>
+              <div class="con">1月23日，特步官方正式宣布签约景甜为新晋品牌代言人。从自幼习“舞”、坚持梦想，考上北电、学习表演，到深耕剧组、潜心打磨，再到做自己喜欢的事，不被旁人眼光言论所无端左右，不断用努力与真诚去改变，成就自己的精彩人生，景甜就是这样一个真实、有魅力的姑娘。 “景三百”、“仙女甜”、“wuli大甜甜”、“邻家小姐姐…</div>
+              <div class="link"><a href="http://www.xtep.com/news_show.aspx?id=129" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;官宣！景甜成为特步新晋品牌代言人&#39;])">详细阅读</a></div>
+              <br class="clear">
+            </div></div><div class="owl-item cloned" style="width: 1255.69px; margin-right: 0px;"><div class="article">
+              <div class="pic"><a href="http://www.xtep.com/news_show.aspx?id=128" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;特步携手厦马十一载 以专业构建跑步生态圈&#39;])"><img src="./特步-非一般的感觉_files/eTwFhrfcctn4587965-09270656089.jpg"></a></div>
+              <div class="time"><span>2019-01-11</span></div>
+              <div class="tit"><a href="http://www.xtep.com/news_show.aspx?id=128" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;特步携手厦马十一载 以专业构建跑步生态圈&#39;])">特步携手厦马十一载 以专业构建跑步生态圈</a></div>
+              <div class="con">   2019年开年第一马“厦门马拉松”圆满落幕！来自38个国家和地区约3.6万名跑者齐聚“中国最美赛道”，新年新厦马，开启新篇章。作为大中华区赞助马拉松赛事最多的运动品牌，特步已携手厦马十一载。今年，特步竞速160厦门马拉松纪念款作为众多跑者必选装备，助力跑友们“跑出我的厦马WAY”，享受运动精彩。　　凭借专业的跑…</div>
+              <div class="link"><a href="http://www.xtep.com/news_show.aspx?id=128" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;特步携手厦马十一载 以专业构建跑步生态圈&#39;])">详细阅读</a></div>
+              <br class="clear">
+            </div></div></div></div><div class="owl-controls"><div class="owl-nav"><div class="owl-prev" style="">prev</div><div class="owl-next" style="">next</div></div><div class="owl-dots" style=""><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div></div></div></div> 
+        </div>
+        
+        
+        <link rel="stylesheet" href="./特步-非一般的感觉_files/owl.carousel.css">
+        <script src="./特步-非一般的感觉_files/owl.carousel.js"></script>
+        <script>
+            $(document).ready(function () {
+                var owl = $('.snelt');
+                owl.owlCarousel({
+                    margin: 0,
+                    nav: true,
+                    loop: true,
+                    responsive: {
+                        0: {
+                            items: 1,
+                        }
+                    }
+                })
+            })
+          </script>
+        </div>
+      <div class="mob-news">
+          <h5><img src="./特步-非一般的感觉_files/xz99.jpg">新闻资讯<span>xtep NEws</span></h5>
+          <ul class="falxt">
+                        <li>
+              <a href="http://www.xtep.com/news_show.aspx?id=129" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;官宣！景甜成为特步新晋品牌代言人&#39;])">
+              <div class="pic"><img src="./特步-非一般的感觉_files/微信图片_20190215113752-09473417399.jpg"></div>
+              <div class="time">2019-01-23</div>
+              <div class="tit">官宣！景甜成为特步新晋品牌代言人</div>
+              <div class="con">1月23日，特步官方正式宣布签约景甜为新晋品牌代言人。从自幼习“舞”、坚持梦想，考上北电、学习表演，到深耕剧组、潜心打磨，再到做自己喜欢的事，不被旁人眼光言论所无端左右，不断用努力与真诚去改变，成就自己的精彩人生，景甜就是这样一个真实、有魅力的姑娘。 “景三百”、“仙女甜”、“wuli大甜甜”、“邻家小姐姐…</div>
+              </a>
+            </li>
+            <li>
+              <a href="http://www.xtep.com/news_show.aspx?id=128" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;特步携手厦马十一载 以专业构建跑步生态圈&#39;])">
+              <div class="pic"><img src="./特步-非一般的感觉_files/eTwFhrfcctn4587965-09270656089.jpg"></div>
+              <div class="time">2019-01-11</div>
+              <div class="tit">特步携手厦马十一载 以专业构建跑步生态圈</div>
+              <div class="con">   2019年开年第一马“厦门马拉松”圆满落幕！来自38个国家和地区约3.6万名跑者齐聚“中国最美赛道”，新年新厦马，开启新篇章。作为大中华区赞助马拉松赛事最多的运动品牌，特步已携手厦马十一载。今年，特步竞速160厦门马拉松纪念款作为众多跑者必选装备，助力跑友们“跑出我的厦马WAY”，享受运动精彩。　　凭借专业的跑…</div>
+              </a>
+            </li>
+            <li>
+              <a href="http://www.xtep.com/news_show.aspx?id=127" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;北国春城初夏迎3万名真跑者 特步携手幸福开跑 &#39;])">
+              <div class="pic"><img src="./特步-非一般的感觉_files/1-17543785251.jpg"></div>
+              <div class="time">2018-05-27</div>
+              <div class="tit">北国春城初夏迎3万名真跑者 特步携手幸福开跑 </div>
+              <div class="con">
+    5月27日上午7点半，2018长春国际马拉松赛在长春体育中心鸣枪起跑，作为“奔跑中国·将改革进行到底”系列赛的重要一站，共吸引了30000名真跑者参赛。本次赛事赛程包含全程马拉松、半程马拉松、10公里和5公里赛事（迷你跑、家庭跑、情侣跑）四个项目，真跑者们踏上赛道，雨中奔跑，逐梦前行。以奔跑的方式一睹祖国的大好…</div>
+              </a>
+            </li>
+            <li>
+              <a href="http://www.xtep.com/news_show.aspx?id=124" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;战天下，赢未来！特步2018营销大会暨第九届金指奖颁奖盛典成功举办！&#39;])">
+              <div class="pic"><img src="./特步-非一般的感觉_files/3-11191923525.jpg"></div>
+              <div class="time">2018-03-29</div>
+              <div class="tit">战天下，赢未来！特步2018营销大会暨第九届金指奖颁奖盛典成功举办！</div>
+              <div class="con">▲特步2018营销大会暨第九届金指奖颁奖盛典现场3月28日，”战天下 赢未来”特步2018营销大会暨第九届金指奖颁奖盛典在厦门会展中心举行，特步集团董事局主席兼CEO丁水波先生及诸位领导嘉宾，共同出席了此次盛典。▲特步集团董事局主席兼CEO 丁水波 先生发表致辞颁奖现场，特步集团将象征着特步最高荣耀的金指奖授予2017年度…</div>
+              </a>
+            </li>
+            <li>
+              <a href="http://www.xtep.com/news_show.aspx?id=123" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;体育+娱乐+公益，特步321跑步节全面升级&#39;])">
+              <div class="pic"><img src="./特步-非一般的感觉_files/1-09321966266.jpg"></div>
+              <div class="time">2018-03-23</div>
+              <div class="tit">体育+娱乐+公益，特步321跑步节全面升级</div>
+              <div class="con">3月21日，万众瞩目的“321GO！——２０１８特步跑步节全民跑步盛典”，在厦门华丽上演。这场由中国田协与特步共同发起、汇聚众多体娱明星大咖、声势浩大的狂欢盛宴，成功引爆了全民的跑步激情！（盛典嘉宾上台进行发枪仪式，321，开跑！）特步321跑步节 “跑”出新高度321跑步节是特步于2016年重拳打造的一个属于全民的跑步…</div>
+              </a>
+            </li>
+            <li>
+              <a href="http://www.xtep.com/news_show.aspx?id=122" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;特步助力2018厦马新年第一跑  三万跑者逆雨而战跑瘾大爆发&#39;])">
+              <div class="pic"><img src="./特步-非一般的感觉_files/封面-09120341611.jpg"></div>
+              <div class="time">2018-01-07</div>
+              <div class="tit">特步助力2018厦马新年第一跑  三万跑者逆雨而战跑瘾大爆发</div>
+              <div class="con">2018年的第一个周日，厦门马拉松赛在国际会展中心鸣枪开跑，三万跑者奔跑在“中国最美赛道”上，用42.195公里开启了满怀希望的新年。低温与雨水成为本次比赛最大的挑战，但是三万名“真跑者”逆雨而战，大雨无法浇熄他们的跑步热情，反而唤醒了他们心中的强大跑瘾！这是一场酣畅淋漓的新年洗礼，2018由此刻开始全新出发！#…</div>
+              </a>
+            </li>
+            <li>
+              <a href="http://www.xtep.com/news_show.aspx?id=118" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;真跑者跑上瘾  燃动体育之城晋江&#39;])">
+              <div class="pic"><img src="./特步-非一般的感觉_files/_AI_6560-09281399018.JPG"></div>
+              <div class="time">2017-12-13</div>
+              <div class="tit">真跑者跑上瘾  燃动体育之城晋江</div>
+              <div class="con">12月10日，2017特步晋江国际马拉松赛上瘾开跑。一首《爱拼才会赢》在闽南流传甚广，“三分天注定，七分靠打拼”深入人心。爱拼敢赢的晋江人，搏击商海屡创传奇，又是一座充满活力的体育之城。12月10日，晋江，迎来2017特步晋江国际马拉松赛，万名跑者汇集体育中心，畅跑海丝城，助力世中运。特步集团董事局主席兼CEO丁水波…</div>
+              </a>
+            </li>
+            <li>
+              <a href="http://www.xtep.com/news_show.aspx?id=116" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;相约大湖名城，金牌赛事福利等你领取！&#39;])">
+              <div class="pic"><img src="./特步-非一般的感觉_files/1-16031239868.jpg"></div>
+              <div class="time">2017-11-13</div>
+              <div class="tit">相约大湖名城，金牌赛事福利等你领取！</div>
+              <div class="con">11月12日，2017合肥国际马拉松赛暨全国马拉松锦标赛(合肥站)在滨湖国际会展中心北广场拉开帷幕。金牌赛事保障跑友完赛清晨，9℃的合肥滨湖国际会展中心虽有些许凉意，但不能阻挡2.8万名真跑者们的激情，他们要用奔跑来体验人杰地灵的大湖名城，感受金牌赛事的魅力。400余名特步特跑族成员组成的荧光军团和官方“兔子”征战…</div>
+              </a>
+            </li>
+            <li>
+              <a href="http://www.xtep.com/news_show.aspx?id=115" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;全网破2.07亿！ 特步天猫官方旗舰店双十一缔造“非一般”的同比增长，冠绝业内&#39;])">
+              <div class="pic"><img src="./特步-非一般的感觉_files/微信头图-15351413675.png"></div>
+              <div class="time">2017-11-13</div>
+              <div class="tit">全网破2.07亿！ 特步天猫官方旗舰店双十一缔造“非一般”的同比增长，冠绝业内</div>
+              <div class="con">2017天猫双11购物狂欢节，特步电商掀开新一页，单店破亿全网超2.07亿同比增长达83%增幅问鼎国内同业品牌！亿元大店开启特步电商全新里程碑双11期间，特步全网破2.07亿，旗舰店同比增长83%线上线下融合，打造奇迹增长今年特步双十一取得“非一般”佳绩绝非巧合。特步董事局主席兼CEO丁水波先生表示，今年通过线上线下高度整…</div>
+              </a>
+            </li>
+            <li>
+              <a href="http://www.xtep.com/news_show.aspx?id=113" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;战长沙！特步热炼工场引领中国街头运动新玩法&#39;])">
+              <div class="pic"><img src="./特步-非一般的感觉_files/头图2-13590591225.jpg"></div>
+              <div class="time">2017-10-25</div>
+              <div class="tit">战长沙！特步热炼工场引领中国街头运动新玩法</div>
+              <div class="con">2017年10月21日和22日，长沙街头发生了三件事儿。第一，特步携手亚洲轮滑联合会，新一波的滑板热即将来袭！第二，一代传奇国脚高峰莅临长沙街头，投身笼式足球赛，大玩街头足球！第三，路人王1V1篮球赛巅峰对决，冠军选手击败对手狂揽4万奖金！这三件事情，全发生在特步热炼工场，也正是在这里，许多街头运动被赋予了新玩法…</div>
+              </a>
+            </li>
+
+
+          </ul>
+          <div class="lox-more">
+            <a href="http://www.xtep.com/news_show.aspx?id=45" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;新闻详情&#39;, &#39;点击&#39;, &#39;查看全部&#39;])">查看全部 <img src="./特步-非一般的感觉_files/xz98.jpg"></a>
+          </div>
+      </div>
+      
+      <style>
+        .mob-news{ display:none;}
+        .mob-news h5{ height:45px; line-height:45px; background:#e3e3e3; font-weight:normal; font-size:16px; padding:0 2%;}
+        .mob-news h5 span{ display:inline-block; text-transform:uppercase; font-size:10px; margin-left:5px; color:#999;}
+        .mob-news h5 img{ margin-right:10px;}
+        .falxt li{ position:relative; height:90px;}
+        .falxt li a{ display:block; padding:10px 10px 10px 120px;}
+        .falxt li .pic{ width:100px; position:absolute; left:10px; top:10px;}
+        .falxt li .pic img{ width:100%; height:auto;}
+        .falxt li .time{ color:#999;}
+        .falxt li .tit{ font-size:16px; line-height:25px; height:25px; overflow:hidden; margin-top:0px;}
+        .falxt li .con{ font-size:12px; line-height:20px; height:20px; overflow:hidden; color:#666;}
+        .lox-more a{ display:block; background:#e3e3e3; line-height:45px; text-align:center;}
+        
+        @media screen and (max-width: 640px) {
+            .mob-news{ display:block;}
+            .oloxlt{ display:none;}
+            }
+        
+      </style>
+      
+      
+      
+      <div class="osnit sionlt" style="display:none;">
+        <h2>热卖<span>推荐</span></h2>
+        <h3>best selling</h3>
+        <div class="nelx-set">
+          <div class="silet"><div class="tc"><a href="http://www.xtep.com/#">男子</a><a href="http://www.xtep.com/#">女子</a><a href="http://www.xtep.com/#">儿童</a></div></div>
+        </div>
+        <div class="owl-carousel piclt wrap owl-theme owl-hidden owl-loaded">
+                      
+          
+
+
+        <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: 0s; width: 645px;"><div class="owl-item active" style="width: 312.5px; margin-right: 10px;"><div class="article tc rel">
+            <div class="pic"><a href="http://www.xtep.com/" moburl="" target="_blank"><img src="./特步-非一般的感觉_files/t12-10305890801.jpg"></a></div>
+            <div class="tit">特步第19代风火动力巢跑鞋</div>
+            <div class="tit">¥170.00</div>
+            <div class="linkpic"><a href="http://www.xtep.com/" moburl="" target="_blank"><img src="./特步-非一般的感觉_files/t13-10305878893.jpg" width="100%"><span>立即购买</span></a></div>
+            <br class="clear">
+          </div></div><div class="owl-item active" style="width: 312.5px; margin-right: 10px;"><div class="article tc rel">
+            <div class="pic"><a href="http://www.xtep.com/" moburl="" target="_blank"><img src="./特步-非一般的感觉_files/t12-10305890801.jpg"></a></div>
+            <div class="tit">特步第19代风火动力巢跑鞋</div>
+            <div class="tit">¥170.00</div>
+            <div class="linkpic"><a href="http://www.xtep.com/" moburl="" target="_blank"><img src="./特步-非一般的感觉_files/t13-10305878893.jpg" width="100%"><span>立即购买</span></a></div>
+            <br class="clear">
+          </div></div></div></div><div class="owl-controls"><div class="owl-nav"><div class="owl-prev" style="">prev</div><div class="owl-next" style="">next</div></div><div class="owl-dots" style=""><div class="owl-dot active"><span></span></div></div></div></div>
+        <script>
+            $(document).ready(function() {
+                var owl = $('.piclt');
+                owl.owlCarousel({
+                    margin: 10,
+                    nav: true,
+                    loop: false,
+                    responsive: {
+                        0: {
+                            items: 2
+                        },
+                        1000: {
+                            items: 4
+                        }
+                    }
+                })
+            })
+          </script>
+      </div>
+      
+      </div>
+      
+      
+      
+      
+<div class="foot" style="z-index: 1;">
+  <!--<div class="senlt wrap">
+    <dl class="tl">
+      <dt>关于特步</dt>
+      <dd><a href="#">走进特步</a></dd>
+      <dd><a href="#">企业架构</a></dd>
+      <dd><a href="#">历史荣耀</a></dd>
+      <dd><a href="#">企业文化</a></dd>
+      <dd><a href="#">核心理念</a></dd>
+      <dd><a href="#">职业意识</a></dd>
+      <dd><a href="#">十五周年</a></dd>
+    </dl>
+    <dl>
+      <dt>品牌故事</dt>
+      <dd><a href="#">品牌历史</a></dd>
+      <dd><a href="#">品牌与赛事</a></dd>
+      <dd><a href="#">品牌与明星</a></dd>
+    </dl>
+    <dl>
+      <dt>投资者关系</dt>
+      <dd><a href="#">企业营销</a></dd>
+      <dd><a href="#">公司资料</a></dd>
+      <dd><a href="#">资讯披露</a></dd>
+    </dl>
+    <dl>
+      <dt>核心竞争力</dt>
+      <dd><a href="#">品牌力</a></dd>
+      <dd><a href="#">产品力</a></dd>
+      <dd><a href="#">终端力</a></dd>
+      <dd><a href="#">渠道力</a></dd>
+      <dd><a href="#">推广力</a></dd>
+    </dl>
+    <dl>
+      <dt>人才招聘</dt>
+      <dd><a href="#">社会招聘</a></dd>
+      <dd><a href="#">校园招聘</a></dd>
+      <dd><a href="#">人力理念</a></dd>
+      <dd><a href="#">厦门人才网</a></dd>
+    </dl>
+    <dl class="iomt">
+      <dt>联系我们</dt>
+      <dd><a href="#">联系方式</a></dd>
+      <dd><a href="#">团购VIP</a></dd>
+      <dd><a href="#">加盟特步</a></dd>
+      <dd><a href="#">隐私政策</a></dd>
+    </dl>
+    <br class="clear" />
+    
+  </div>
+  <div class="b-flt wrap">
+      <div class="xsd-choose">
+        <span><img src="images/xl.png" class="fr" /><img src="images/cn.jpg" />简体中文</span>
+        <ul>
+          <li><a href="javascript:;"><img src="images/cn.jpg" />简体中文</a></li>
+          <li><a href="javascript:;"><img src="images/en.jpg" />简体中文</a></li>
+        </ul>
+      </div>
+      <p class="tit"><strong>隐私政策</strong><br>特步(中国) 2016版权所有 闽ICP备05021253号</p>
+  </div>-->
+  <div class="wrap">
+    <div class="bot-logo tc"><img src="./特步-非一般的感觉_files/xz26.png" width="150"></div>
+    <div class="likxt tc">
+    <a href="http://weibo.com/xtepchina?refer_flag=1001030101_" target="_blank" class="nelt nelt01" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;网站底部&#39;, &#39;点击&#39;, &#39;微博&#39;])"><span><img src="./特步-非一般的感觉_files/ewm01.jpg"></span></a>
+    <a href="javascript:;" class="nelt nelt02"><span><img src="./特步-非一般的感觉_files/ewm02.jpg"></span></a>
+    <a href="javascript:;" class="nelt nelt03"><span><img src="./特步-非一般的感觉_files/ewm03.jpg"></span></a>
+    <a href="https://s.click.taobao.com/Zl6brLw" target="_blank" class="nelt04" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;网站底部&#39;, &#39;点击&#39;, &#39;官方商城&#39;])"></a>
+   <!--  <a href="http://xclub.xtep.com/WebXClub/Index.aspx" target="_blank" class="nelt05"  onclick="_hmt.push(['_trackEvent', '网站底部', '点击', 'VIP'])"></a>-->
+    <a href="http://www.xtep.com/store.aspx" class="nelt06" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;网站底部&#39;, &#39;点击&#39;, &#39;门店查询&#39;])"></a>
+    <a href="http://product.xtep.com:9080/" class="nelt07" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;网站底部&#39;, &#39;点击&#39;, &#39;防伪查询&#39;])"></a>
+    </div>
+    <div class="oslotx tc"><a href="http://www.xtep.com/about.aspx" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;网站底部&#39;, &#39;点击&#39;, &#39;特步简介&#39;])">特步简介</a>|<a href="http://www.xtep.com.hk/index_sc.php" target="_blank" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;网站底部&#39;, &#39;点击&#39;, &#39;投资者关系&#39;])">投资者关系</a>|<span><a href="http://www.xtep.com/join.aspx" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;网站底部&#39;, &#39;点击&#39;, &#39;人才招聘&#39;])">人才招聘</a>|<a href="http://www.xtep.com/contact.aspx" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;网站底部&#39;, &#39;点击&#39;, &#39;联系我们&#39;])">联系我们</a>|<a href="http://www.xtep.com.hk/" target="_blank" class="langt" onclick="_hmt.push([&#39;_trackEvent&#39;, &#39;网站底部&#39;, &#39;点击&#39;, &#39;英文站&#39;])">ENGLISH</a></span></div>
+    <div class="copyxl tc">闽ICP备05021253号  © 2001-2018 <span>特步（中国）有限公司版权所有</span>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?2dd64f1ede60fd1deddd8ed25d919220";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+</script>
+
+    <!-- <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1261236120'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1261236120%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>&nbsp;  技术支持：<a href="https://www.35.com/index.html" target="_blank" style="color:#898989">三五互联</a></span>--></div>
+    <div class="tc">
+<a id="_pingansec_bottomimagesmall_brand" href="http://si.trustutn.org/info?sn=454181218037463585906&amp;certType=1"><img src="./特步-非一般的感觉_files/brand_bottom_small.jpg" style="margin: 5px; width: 100px;"></a>
+</div>
+  </div>
+</div>
+
+<style>
+@media screen and (max-width: 420px) {
+	.oslotx span,.copyxl span{ display:block; text-align:center;}
+	
+	}
+</style>
+<script>
+  $(function(){
+	  if($(window).width()<=640){
+		  $(".likxt .nelt").click(function(){
+		  $(this).children("span").stop(false,true).fadeIn();
+		  $(".bg-col").stop(false,true).fadeIn();
+		  return false
+		  });
+	  $(".likxt .nelt span,.bg-col").click(function(){
+		  $(".likxt .nelt span,.bg-col").stop(false,true).fadeOut();
+		  return false
+		  });
+		  }
+	  
+	  })
+</script>
+<div class="fat-sild">
+  <!--<a href="#" class="weibo">微博</a>
+  <a href="javascript:;" class="weixin">微信</a>-->
+  <a href="javascript:;" id="gotop">回到顶部</a>
+</div>
+<div class="bg-col"></div>
+<!--<div class="ewmimt">
+  <div class="ewm01">
+    <p class="pic"><img src="images/ewm02.jpg" /></p>
+    <p class="tit">特步中国</p>
+  </div>
+  <div class="ewm02">
+    <p class="pic"><img src="images/ewm01.jpg" /></p>
+    <p class="tit">跑步-->
+  <!--<  <script type="text/javascript" src="//trusted.shuidi.cn/trusted.js?id=2767&jump=0&style=1"></script>-->
+    <script>
+        $(function() {
+            //$("#trusted_container").hide();
+        })
+</script>
+    
+    
+    
+    
+      </body></html>
